@@ -2020,3 +2020,24 @@ input::placeholder {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 500px) {
+  /* SECTION BTN */
+  #section-btn {
+    min-height: 20vh;
+    height: 22vh;
+  }
+
+  #section-btn h2 {
+    font-size: 3rem;
+  }
+
+  /* HERO INFO */
+  #hero-info {
+    height: 22vh;
+  }
+
+  #hero-info h1 {
+    font-size: 3.5rem;
+  }
+}
