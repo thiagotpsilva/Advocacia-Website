@@ -18,6 +18,7 @@
 
 #footer p {
   font-size: 1.82rem;
+  /* font-size: 1rem; */
   letter-spacing: 0.02rem;
   margin-bottom: 0;
 }
@@ -142,6 +143,7 @@
   right: 0;
   width: 100%;
   background-color: var(--light-gray-color);
+  /* background-color: var(--primary-color); */
   /* background-color: var(--primary-color); */
   opacity: 0.3;
   height: 0.1rem;

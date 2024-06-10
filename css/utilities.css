@@ -1,3 +1,13 @@
+/* PADDING */
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* CONTAINER */
 .container {
   max-width: var(--max-width);
   overflow: hidden;
@@ -19,9 +29,11 @@
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
 }
+
 .grid-4 {
   grid-template-columns: repeat(4, 1fr);
 }
+
 .grid-5 {
   grid-template-columns: repeat(5, 1fr);
 }
@@ -95,14 +107,6 @@
   opacity: 0.9;
 }
 
-/* PADDING */
-.py-2 {
-  padding: 2rem 0;
-}
-
-.py-3 {
-  padding: 3rem 0;
-}
 /* BACKGROUNDS */
 .primary-bg {
   background-color: var(--primary-color) !important;
