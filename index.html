@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4F12WZSP9Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-4F12WZSP9Y');
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>HOME | Baruch Turismo</title>
+  </head>
+  <body id="top">
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+      <a class="logo" href="index.html">
+        <img src="images/logos/02.png" alt="Baruch Turismo" />
+      </a>
+      <ul>
+        <li><a href="index.html" class="current-link">Início</a></li>
+        <li><a href="about.html">Quem Somos</a></li>
+        <li><a href="tour.html">Passeios de Barco</a></li>
+        <li><a href="gallery.html">Galeria</a></li>
+        <li>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+            >Reservas</a
+          >
+        </li>
+        <li><a href="info.html">Dúvidas</a></li>
+      </ul>
+    </div>
+    <!-- HEADER -->
+    <header id="hero-home" class="hero">
+      <nav class="navbar">
+        <div class="container">
+          <a class="logo" href="index.html">
+            <img src="images/logos/logo_advocacia.png" alt="Baruch Turismo" />
+          </a>
+          <ul>
+            <li><a href="index.html" class="current-link">Início</a></li>
+            <li><a href="about.html">Quem Somos</a></li>
+            <li><a href="tour.html">Passeios de Barco</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+                >Reservas</a
+              >
+            </li>
+            <li><a href="info.html">Dúvidas</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="slider">
+        <div class="slide current">
+          <img
+            src="images/slider/WhatsApp Image 2024-01-26 at 11.48.22.jpeg"
+            alt=""
+          />
+
+          <div class="content">
+            <h1>
+              <span class="text-primary text-large">Arraial do Cabo</span>
+            </h1>
+            <h2>A viagem dos seus sonhos começa aqui</h2>
+            <p>Conheça nossos serviços</p>
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+              class="btn btn-primary"
+              >Reserve agora</a
+            >
+          </div>
+        </div>
+
+        <div class="slide">
+          <img src="images/slider/Design sem nome (1).png" alt="" />
+
+          <div class="content">
+            <h1>
+              Águas <span class="text-primary text-large">Cristalinas</span>
+            </h1>
+            <h2>Paisagens espetaculares, águas calmas e seguras.</h2>
+            <p>Conheça nossos passeios</p>
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+              class="btn btn-primary"
+              >Reserve agora</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <button id="prev"><i class="fas fa-chevron-left fa-3x"></i></button>
+        <button id="next"><i class="fas fa-chevron-right fa-3x"></i></button>
+      </div>
+    </header>
+
+    <!-- HAMBURGER MENU -->
+    <buttton id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </buttton>
+
+    <!-- SERVICES -->
+    <section id="section-services" class="light-bg py-2">
+      <div class="container">
+        <header class="section-header py-2">
+          <h2>O que oferecemos</h2>
+          <p>
+            Baruch Turismo oferece mais conforto e comodidade nos seus passeios
+            em alto-mar, em meio a natureza e localização privilegiada em
+            Arraial do Cabo. Com ampla estrutura de serviços, nossa equipe
+            possui as melhores embarcações para proprocionar uma experência
+            única a cada turista. A excelência, segurança e comodidade fazem
+            parte dos nossos valores e garantir o melhor passeio é nossa missão.
+          </p>
+          <h3>
+            Venha ter contato com a natureza de forma exclusiva e aproveite sua
+            experiência!.
+          </h3>
+        </header>
+
+        <div class="grid-container grid-4">
+          <div class="flex-card">
+            <img src="images/icons/icon-mapa.png" alt="" />
+            <div>
+              <h3>Localização Privilegiada</h3>
+              <p>
+                Situado na belíssima cidade de Arraial do Cabo, a Baruch Turismo
+                é a agência de viagem mais bem localizada da cidade. Aqui você
+                está próximo das principais praias e do centro da cidade.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-card">
+            <img src="images/icons/icon-clube.png" alt="" />
+            <div>
+              <h3>Passeios exclusivos</h3>
+              <p>
+                Com uma estrutura ampla, A Baruch Turismo é a opção certa para
+                você viver dias de muito relaxamento e diversão nas belíssimas
+                praias de Arraial do cabo. Com amigos ou familiares, sua
+                diversão é garantida.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-card">
+            <img src="images/icons/icon-lazer.png" alt="" />
+            <div>
+              <h3>Lazer para toda família</h3>
+              <p>
+                A Baruch Turismo oferece uma vasta programação com paradas
+                durante todo o passeio. Pensando no seu bem estar, realizamos os
+                nossos passeios com total acessibilidade para crianças, adultos
+                e idosos, sete dias por semana.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-card">
+            <img src="images/icons/icon-porto.png" alt="" />
+            <div>
+              <h3>Arraial do Cabo</h3>
+              <p>
+                Um dos destinos turísticos mais desejados do Brasil, Arraial do
+                Cabo se destaca por suas belas praias, valorização da história e
+                cultura, atrativos naturais e forte gastronomia de pescados.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM -->
+
+    <section class="instagram py-2">
+      <header class="header-insta">
+        <div class="insta-container">
+          <div class="insta-profile">
+            <div class="profile-image">
+              <!-- <img
+                  src="https://images.unsplash.com/photo-1513721032312-6a18a42c8763?w=152&h=152&fit=crop&crop=faces"
+                  alt=""
+                /> -->
+              <img src="images/logos/logo.png" alt="" />
+            </div>
+
+            <div class="profile-user-settings">
+              <h1 class="profile-user-name">baruchturismo</h1>
+
+              <button class="header-btn profile-edit-btn">Editar Perfil</button>
+
+              <button
+                class="header-btn profile-settings-btn"
+                aria-label="profile settings"
+              >
+                <i class="fas fa-cog" aria-hidden="true"></i>
+              </button>
+            </div>
+
+            <div class="profile-bio">
+              <p>
+                <span class="profile-real-name">
+                  • Passeio de Barco Privativo • </span
+                ><br />
+                <span> | Arraial do Cabo <br /> </span>
+                <span> | Passeios Privativos <br /> </span>
+                <span> | Venha conhecer o Caribe Brasileiro <br /></span>
+              </p>
+            </div>
+          </div>
+          <!-- End of profile section -->
+        </div>
+        <!-- End of container -->
+      </header>
+
+      <div class="insta-container">
+        <div class="insta-gallery">
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_01.jpg"
+              class="gallery-image"
+              alt=""
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 56
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_02.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 89
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 5
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_03.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Gallery</span
+              ><i class="fas fa-clone" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 42
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 1
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_04.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Video</span
+              ><i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 38
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 0
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_05.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Gallery</span
+              ><i class="fas fa-clone" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 47
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 1
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_06.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 94
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 3
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_07.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Gallery</span
+              ><i class="fas fa-clone" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 52
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 4
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_08.jpg"
+              class="gallery-image"
+              alt=""
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 66
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_09.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Gallery</span
+              ><i class="fas fa-clone" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 45
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 0
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_10.jpg"
+              class="gallery-image"
+              alt=""
+            />
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 34
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 1
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_11.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 41
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 0
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_12.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Video</span
+              ><i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 30
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_13.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Video</span
+              ><i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 30
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_14.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Video</span
+              ><i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 30
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-item" tabindex="0">
+            <img
+              src="images/instagram/insta_15.jpg"
+              class="gallery-image"
+              alt=""
+            />
+
+            <div class="gallery-item-type">
+              <span class="visually-hidden">Video</span
+              ><i class="fas fa-video" aria-hidden="true"></i>
+            </div>
+
+            <div class="gallery-item-info">
+              <ul>
+                <li class="gallery-item-likes">
+                  <span class="visually-hidden">Likes:</span
+                  ><i class="fas fa-heart" aria-hidden="true"></i> 30
+                </li>
+                <li class="gallery-item-comments">
+                  <span class="visually-hidden">Comments:</span
+                  ><i class="fas fa-comment" aria-hidden="true"></i> 2
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BTN -->
+    <section id="section-btn">
+      <div class="container flex-container">
+        <h2>Não Encontrou o que procura?</h2>
+        <div>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+            class="btn btn-cont"
+            >Entrar em Contato</a
+          >
+          <a target="_blank" href="info.html" class="btn btn-cont"
+            >Tire suas dúvidas</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="py-2">
+      <div class="container grid-container grid-3">
+        <div class="flex-container">
+          <div>
+            <h3>Siga nossas redes sociais</h3>
+            <ul class="social-icons">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/baruchturismo/"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/baruchturismo/"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+                  ><i class="fab fa-whatsapp"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.tripadvisor.com.br/Attraction_Review-g1056623-d23483914-Reviews-Baruch_Turismo-Arraial_do_Cabo_State_of_Rio_de_Janeiro.html"
+                  ><i class="fa fa-tripadvisor"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="flex-container"></div>
+
+        <div class="flex-container">
+          <p>
+            Copyright 2024
+            <a href="index.html"> &copy;Edison Sobrinho Advocacia</a> | Todos os
+            Direitos Reservados
+          </p>
+          <p>
+            Desenvolvido por
+            <a
+              target="_blank"
+              class="text-primary"
+              href="http://www.techthis.com.br/"
+            >
+              Thiago Silva</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#top" id="backTop">
+      <ion-icon class="scrollTop" name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- <a
+      id="contactIcon"
+      target="_blank"
+      href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+      ><i class="fab fa-whatsapp"></i
+    ></a> -->
+    <!-- </main> -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/insta.js"></script>
+  </body>
+</html>

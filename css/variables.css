@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --primary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Teko', sans-serif;
+  --insta-font: 'Open Sans', Arial, sans-serif;
+
+  --cont-color: #f39422;
+  /* --cont-color: #343a40; */
+  /* --primary-color: #0999bf; */
+  --primary-color: #354051;
+  /* --primary-color: #748da6; */
+
+  --secondary-color: #082032;
+  /* --secondary-color: #003865; */
+  /* --secondary-color: #f39422; */
+  --light-gray-color: #e5e5e5;
+  --light-color: #f8f9fa;
+  --gray-color: #ccc;
+  --white-color: #fff;
+  --dark-color: #424850;
+
+  /* REFATOR */
+  --secondary-dark-color: #626870;
+
+  --beaches-color: #f99500;
+  --ent-color: #a66bbe;
+  --food-color: #009cff;
+
+  --max-width: 100rem;
+
+  --primary-color: #ab7f34;
+  --secondary-color: #424850;
+  --dark-color: #181819;
+}
