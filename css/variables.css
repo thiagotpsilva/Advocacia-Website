@@ -4,6 +4,7 @@
 
 :root {
   --primary-font: 'Oswald', sans-serif;
+  /* --primary-font: 'Merriweather', serif; */
   --secondary-font: 'Oswald', sans-serif;
   --secondary-font: 'Teko', sans-serif;
   --insta-font: 'Open Sans', Arial, sans-serif;
@@ -19,7 +20,7 @@
   /* --secondary-color: #f39422; */
   --light-gray-color: #e5e5e5;
   --light-color: #f8f9fa;
-  --gray-color: #ccc;
+  /* --gray-color: #ccc; */
   --white-color: #fff;
   --dark-color: #424850;
 
@@ -30,10 +31,12 @@
   --ent-color: #a66bbe;
   --food-color: #009cff;
 
-  --max-width: 100rem;
+  --max-width: 110rem;
 
   --primary-color: #ab7f34;
   --primary-color: #be8c63;
+  --primary-color: #c18f59;
   --secondary-color: #424850;
   --dark-color: #181819;
+  --text-color: rgba(0, 0, 0, 0.6);
 }

@@ -18,6 +18,12 @@
 
       gtag('config', 'G-4F12WZSP9Y');
     </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -38,7 +44,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/scroll.css" />
-    <title>HOME | Baruch Turismo</title>
+    <link rel="stylesheet" href="css/section__skills.css" />
+    <title>Home | Edison Sobrinho Advocacia</title>
   </head>
   <body id="top">
     <div id="overlay"></div>
@@ -141,65 +148,75 @@
     </buttton>
 
     <!-- SERVICES -->
-    <section id="section-services" class="dark-bg py-4">
-      <div class="container">
-        <!-- <header class="section-header py-2">
-          <h2>O que oferecemos</h2>
-          <p>
-            Baruch Turismo oferece mais conforto e comodidade nos seus passeios
-            em alto-mar, em meio a natureza e localização privilegiada em
-            Arraial do Cabo. Com ampla estrutura de serviços, nossa equipe
-            possui as melhores embarcações para proprocionar uma experência
-            única a cada turista. A excelência, segurança e comodidade fazem
-            parte dos nossos valores e garantir o melhor passeio é nossa missão.
-          </p>
-          <h3>
-            Venha ter contato com a natureza de forma exclusiva e aproveite sua
-            experiência!.
-          </h3>
-        </header> -->
-
-        <div class="grid-container grid-4">
-          <div class="flex-card primary-bg">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+    <section id="section-services" class="py-4">
+      <div class="services__container">
+        <div class="grid-container grid-4 grid-full">
+          <div class="flex-card">
+            <!-- <i class="fa-solid fa-scale-balanced fa-2x"></i> -->
+            <p class="card__number">01.</p>
             <div>
-              <h3>Experienced</h3>
+              <h3>Experiência Comprovada</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Túlio Vianna leciona Direito Penal há 10 anos na Faculdade de
+                Direito da UFMG para alunos da graduação, do mestrado e do
+                doutorado. É pós-doutor em Direito pela Università di Bologna e
+                autor de livros e artigos jurídicos publicados no Brasil e no
+                exterior. Esta experiência acadêmica se reflete na nossa equipe
+                de advogados, altamente qualificada e sempre atualizada com o
+                que há de mais moderno na teoria e na prática do Direito Penal.
               </p>
             </div>
           </div>
 
-          <div class="flex-card grey-bg">
-            <i class="fa-solid fa-section fa-2x"></i>
+          <div class="flex-card">
+            <!-- <i class="fa-solid fa-section fa-2x"></i> -->
+            <p class="card__number">02.</p>
             <div>
-              <h3>Legal Process</h3>
+              <h3>Confiança Nacional</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Túlio Vianna é um dos mais importantes influenciadores jurídicos
+                brasileiro. Seu canal do Youtube com mais de 50.000 assinantes é
+                um reflexo da confiança que a comunidade jurídica nacional
+                deposita em seu trabalho. São milhares de advogados, juízes e
+                promotores de todo o país, que acompanham atentamente sua
+                opinião isenta e fundamentada. Esta confiança nacional se
+                estende a nosso escritório de advocacia, admirado e recomendado
+                por clientes e colegas de todo o país.
               </p>
             </div>
           </div>
 
-          <div class="flex-card primary-bg">
-            <i class="fa-solid fa-gavel fa-2x"></i>
+          <div class="flex-card">
+            <!-- <i class="fa-solid fa-gavel fa-2x"></i> -->
+            <p class="card__number">03.</p>
             <div>
-              <h3>Justice for all</h3>
+              <h3>Sigilo Garantido</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Túlio Vianna preocupa-se tanto com a privacidade que escreveu
+                sua tese de doutorado sobre o tema. Todas as suas informações
+                estarão protegidas não só pelo nosso rigoroso respeito ao sigilo
+                profissional, mas também por criptografia de ponta. Aqui não tem
+                vazamento de informações. Mantemos protegidas as informações
+                confidenciais, avaliamos com nossos clientes o que pode ser
+                divulgado e intermediamos o contato com a imprensa. Tudo isso
+                para resguardar a imagem de nossos clientes.
               </p>
             </div>
           </div>
 
-          <div class="flex-card grey-bg">
-            <i class="fa-solid fa-book fa-2x"></i>
+          <div class="flex-card">
+            <!-- <i class="fa-solid fa-book fa-2x"></i> -->
+            <p class="card__number">04.</p>
             <div>
-              <h3>Client Satisfaction</h3>
+              <h3>Atendimento Personalizado</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Túlio, Cynthia e Lucas. É assim que gostamos de ser chamados por
+                nossos clientes. Aqui você não é só um número de processo
+                separado de nós por um “Doutor”. Deixamos as formalidades para
+                os juízes e para os tribunais. Queremos que você se sinta à
+                vontade para expor abertamente todas suas incertezas e
+                apreensões. Faremos tudo ao nosso alcance para resolvê-las da
+                forma mais clara e transparente possível.
               </p>
             </div>
           </div>
@@ -670,6 +687,10 @@
     <section id="section-btn">
       <div class="container flex-container">
         <h2>Não Encontrou o que procura?</h2>
+        <p>
+          Você está com duvidas sobre o Direito e deseja falar com um
+          especialista?
+        </p>
         <div>
           <a target="_blank" href="#" class="btn btn-cont">Entrar em Contato</a>
           <a target="_blank" href="info.html" class="btn btn-cont"
@@ -679,84 +700,368 @@
       </div>
     </section>
 
-    <section class="section__services">
+    <section class="section-teste">
       <div class="container">
         <header class="section-header">
           <h3>
-            <i class="fa-solid fa-scale-balanced"></i> Our legal Services
+            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
             <i class="fa-solid fa-scale-balanced"></i>
           </h3>
-          <h2>Practice Areas</h2>
+          <h2>Áreas de Atuação</h2>
+          <p>
+            Temos diversificada experiência, adquirida ao longo de anos de
+            atuação na advocacia e durante o ensino universitário,
+            principalmente nas seguintes áreas:
+          </p>
+        </header>
+
+        <div class="grid-container grid-4">
+          <!-- <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+            </div>
+          </div> -->
+
+          <!-- <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+            </div>
+          </div> -->
+          <!-- 
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+            </div>
+          </div> -->
+          <!-- 
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+            </div>
+          </div> -->
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <!-- <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <!-- <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <!-- <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a> -->
+            </div>
+          </div>
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <!-- <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="teste__btn">
+          <a href="#" class="btn btn-dark"
+            >Saiba Mais <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION SERVICES -->
+    <!-- <section class="section__services">
+      <div class="container">
+        <header class="section-header">
+          <h3>
+            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2>Áreas de Atuação</h2>
+          <p>
+            Temos diversificada experiência, adquirida ao longo de anos de
+            atuação na advocacia e durante o ensino universitário,
+            principalmente nas seguintes áreas:
+          </p>
+        </header>
+        <div class="sliderCards owl-carousel">
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_02 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Tribunal do Juri</h3>
+              <p>
+                Homicídio, tentativa de homicídio, homicídio com dolo eventual,
+                homicídio passional, aborto, feminicídio, infanticídio e
+                instigação ao suicídio.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_03 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Crimes Culposos</h3>
+              <p>
+                Crimes de trânsito, erro médico, desabamento ou desmoronamento,
+                incêndio, inundação, difusão de doença, epidemia, desastre em
+                meio de transporte, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_04 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Lei Maria da Penha</h3>
+              <p>
+                Violência física contra a mulher, violência psicológica contra a
+                mulher, violência sexual contra a mulher, violência moral contra
+                a mulher, medidas protetivas de urgência, perseguição (stalker),
+                etc
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_05 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Crimes informáticos</h3>
+              <p>
+                Invasão de dispositivo informático, interrupção de serviço
+                informático, fraudes informáticas, falsificação de documentos
+                informáticos, interceptação de comunicações, espionagem
+                industrial, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_06 flex-card">
+            <i class="fa-solid fa-gavel fa-2x"></i>
+            <div>
+              <h3>Crimes de opinião</h3>
+              <p>
+                Calúnia, difamação, injúria, incitação, apologia, crimes contra
+                o sentimento religioso, intimidação sistemática (bullyng),
+                crimes de preconceito ou discriminação de raça, cor, etnia,
+                religião, procedência nacional, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="section__skills py-4">
+      <div class="grid-container container">
+        <h1></h1>
+        <div>
+          <h2>Our Skills <i class="fa-solid fa-scale-balanced"></i></h2>
+          <h3>Exceptional Legal Expertise <br />And Services</h3>
+          <p>
+            At VerityLaw, We Are Dedicated To Providing Top-Notch Legal
+            Expertise And Services That Cater To Our Clients' Diverse Needs,
+            Ensuring Effective Solutions And Satisfactory Outcomes.
+          </p>
+          <h4>Legal Consultation</h4>
+          <div class="progress">
+            <div style="width: 76%"><span>76%</span></div>
+          </div>
+
+          <h4>Client Satisfaction:</h4>
+          <div class="progress">
+            <div style="width: 100%"><span>100%</span></div>
+          </div>
+
+          <h4>Case Resolution:</h4>
+          <div class="progress">
+            <div style="width: 98%"><span>98%</span></div>
+          </div>
+
+          <h4>Legal Strategy Development</h4>
+          <div class="progress">
+            <div style="width: 98%"><span>98%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__services process__steps">
+      <div class="container">
+        <header class="section-header">
+          <h3>
+            <i class="fa-solid fa-scale-balanced"></i> Excellence In Legal
+            Processes
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2>Our Legal Process</h2>
           <p>
             Abaixo você encontrará respostas para as perguntas que mais nos
             fazem sobre nossos passeios
           </p>
         </header>
-        <div class="grid-container grid-4">
-          <div class="services-card flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+        <div class="sliderCards owl-carousel">
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
             <div>
               <h3>Criminal Defense</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium quisquam consequatur ullam perferendis eligendi sint,
-                rem officiis adipisci nemo ipsam.
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
               </p>
-              <a href="#" class="btn btn-primary">Contact Us</a>
             </div>
           </div>
-
-          <div class="services-card flex-card">
-            <i class="fa-solid fa-section fa-2x"></i>
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
             <div>
-              <h3>Legal Process</h3>
+              <h3>Criminal Defense</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
               </p>
-              <a href="#" class="btn btn-primary">Contact Us</a>
             </div>
           </div>
-
-          <div class="services-card flex-card">
-            <i class="fa-solid fa-gavel fa-2x"></i>
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
             <div>
-              <h3>Justice for all</h3>
+              <h3>Criminal Defense</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
               </p>
-              <a href="#" class="btn btn-primary">Contact Us</a>
             </div>
           </div>
-
-          <div class="services-card flex-card grey-bg">
-            <i class="fa-solid fa-book fa-2x"></i>
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
             <div>
-              <h3>Client Satisfaction</h3>
+              <h3>Criminal Defense</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
               </p>
-              <a href="#" class="btn btn-primary">Contact Us</a>
             </div>
           </div>
-          <!-- 
-          <div class="services-card flex-card grey-bg">
-            <i class="fa-solid fa-book fa-2x"></i>
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
             <div>
-              <h3>Client Satisfaction</h3>
+              <h3>Criminal Defense</h3>
               <p>
-                Readable content of a when looking at its layout. fact that of
-                thish journey to the earth
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
               </p>
-              <a href="#" class="btn btn-dark">Contact Us</a>
             </div>
-          </div> -->
+          </div>
+          <div class="services-card process-card card_01 flex-card">
+            <p class="process-number">01</p>
+            <div>
+              <h3>Criminal Defense</h3>
+              <p>
+                Protecting your rights and interests and providing a robust
+                defense against criminal charges.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- FOOTER -->
     <footer class="footer dark-bg py-2">
       <div class="container grid-container grid-3">
@@ -808,12 +1113,12 @@
       ><i class="fab fa-whatsapp"></i
     ></a> -->
     <!-- </main> -->
-    <script
+    <!-- <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
       integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
+    ></script> -->
 
     <script
       type="module"
@@ -824,7 +1129,17 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
 
+    <script>
+      $('.sliderCards').owlCarousel({
+        loop: true,
+        // autoplay: true,
+        autoplayTimeout: 1500, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+    </script>
+
     <script src="js/navbar.js"></script>
+    <!-- <script src="js/services_slider.js"></script> -->
     <script src="js/slider.js"></script>
     <script src="js/scroll.js"></script>
     <script src="js/preloader.js"></script>
