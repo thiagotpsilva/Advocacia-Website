@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
 :root {
   /* --primary-font: 'Oswald', sans-serif; */
   /* --primary-font: 'Merriweather', serif; */
@@ -49,6 +46,8 @@
   --dark-color: #2e2e2e;
   --secondary-dark-color: #444;
   --light-color: #fff;
-
+  --gray-color: #ccc;
+  --dark-overlay: rgba(0, 0, 0, 0.74);
+  --text-shadow: 1px 3px rgba(0, 0, 0, 0.72);
   --border-radius: 0.5rem;
 }

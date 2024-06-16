@@ -4,20 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-4F12WZSP9Y"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-4F12WZSP9Y');
-    </script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link
@@ -31,14 +17,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
     <link rel="stylesheet" href="css/variables.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -46,31 +26,36 @@
     <link rel="stylesheet" href="css/scroll.css" />
     <link rel="stylesheet" href="css/section__skills.css" />
     <link rel="stylesheet" href="css/section__process.css" />
+    <link rel="stylesheet" href="css/section__areas.css" />
+    <link rel="stylesheet" href="css/flex__card.css" />
     <link rel="stylesheet" href="css/__btn.css" />
+    <link rel="stylesheet" href="css/__section__header.css" />
+    <link rel="stylesheet" href="css/__menu.css" />
     <title>Home | Edison Sobrinho Advocacia</title>
   </head>
   <body id="top">
     <div id="overlay"></div>
+
+    <!-- MOBILE MENU -->
     <div id="mobile-menu" class="mobile-main-menu">
       <a class="logo" href="index.html">
-        <img src="images/logos/02.png" alt="Baruch Turismo" />
+        <img
+          src="images/logos/logo_advocacia.png"
+          alt="Logomarca Edison Sobrinho Advocacia"
+        />
       </a>
       <ul>
-        <li><a href="index.html" class="current-link">Início</a></li>
-        <li><a href="about.html">Quem Somos</a></li>
-        <li><a href="tour.html">Passeios de Barco</a></li>
-        <li><a href="gallery.html">Galeria</a></li>
+        <li><a class="current-link" href="index.html">Home</a></li>
+        <li><a href="about.html">O Escritório</a></li>
+        <li><a href="tour.html">Áreas de Atuação</a></li>
         <li>
-          <a
-            target="_blank"
-            href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
-            >Reservas</a
-          >
+          <a href="#">Fale Conosco</a>
         </li>
         <li><a href="info.html">Dúvidas</a></li>
       </ul>
     </div>
-    <!-- HEADER -->
+
+    <!-- HEADER: NAVBAR & HERO -->
     <header id="hero-home" class="hero">
       <nav class="navbar">
         <div class="container">
@@ -91,48 +76,50 @@
       <div class="slider">
         <!-- SLIDE 01 -->
         <div class="slide current">
-          <img
+          <!-- <img
             src="images/slider/WhatsApp Image 2024-01-26 at 11.48.22.jpeg"
             alt=""
-          />
+          /> -->
+
+          <img src="images/office/slide_04.jpeg" alt="" />
 
           <div class="content">
-            <img src="assets/Ad_title_shap.png" alt="" />
+            <!-- <img src="assets/Ad_title_shap.png" alt="" /> -->
             <h1>
-              Protecting Your
-              <span class="text-primary">Intellectual <br />Property</span>
-              Rights
+              Protegendo seus
+              <span class="text-primary">Direitos de <br />propriedade</span>
+              intelectual
             </h1>
             <!-- <h2>A viagem dos seus sonhos começa aqui</h2>
             <p>Conheça nossos serviços</p> -->
-            <a href="#" class="btn btn-primary">Free Consultation</a>
+            <a href="#" class="btn btn-primary">Agende uma consulta</a>
           </div>
         </div>
 
         <!-- SLIDE 02 -->
         <div class="slide">
-          <img src="images/slider/Design sem nome (1).png" alt="" />
+          <img src="images/office/slide_02.jpeg" alt="" />
           <div class="content">
-            <img src="assets/Ad_title_shap.png" alt="" />
+            <!-- <img src="assets/Ad_title_shap.png" alt="" /> -->
             <h1>
-              Defending Your Rights With <br />
-              <span class="text-primary">Criminal Defense</span>
+              Defendendo seus direitos com <br />
+              <span class="text-primary">Defesa Criminal</span>
             </h1>
-            <a href="#" class="btn btn-primary">Free Consultation</a>
+            <a href="#" class="btn btn-primary">Agende uma consulta</a>
           </div>
         </div>
 
         <!-- SLIDE 03 -->
         <div class="slide">
-          <img src="assets/Home-3.jpg" alt="" />
+          <img src="images/office/slide_03.jpeg" alt="" />
           <div class="content">
-            <img src="assets/Ad_title_shap.png" alt="" />
+            <!-- <img src="assets/Ad_title_shap.png" alt="" /> -->
             <h1>
-              Strategic
-              <span class="text-primary">Counsel</span> for <br />
-              Corporate Sucess
+              Consultoria
+              <span class="text-primary">Estratégica</span> para <br />
+              sucesso corporativo
             </h1>
-            <a href="#" class="btn btn-primary">Free Consultation</a>
+            <a href="#" class="btn btn-primary">Agende uma consulta</a>
           </div>
         </div>
       </div>
@@ -234,51 +221,572 @@
               About Us <i class="fa-solid fa-scale-balanced"></i>
             </h2>
             <h3 class="about-subheader">
-              Trusted Legal Experts With Experience
+              Especialistas jurídicos confiáveis ​​com experiência
             </h3>
 
             <p>
-              Rely On Our Dedicated Team Of Seasoned Legal Professionals With A
-              Robust Commitment To Providing Exceptional Legal Services. Lorem
-              Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Eum
-              Voluptatibus Dolores.
+              O Escritório Edison Sobrinho Advocacia tem atuação destacada nas
+              mais diversas áreas jurídicas, sendo uma sociedade cujos membros
+              que a compõem possuem como fundamento os princípios da ética,
+              eficiência. Há 20 anos pessoas ativas com serviços jurídicos.
+              Conte com nossa equipe dedicada de profissionais jurídicos
+              experientes com um forte compromisso em fornecer serviços
+              jurídicos excepcionais.
             </p>
             <ul>
+              <h2>Diferenciais</h2>
               <li>
-                <i class="fa-solid fa-scale-balanced"></i> Expert Handling Of
-                Legal Cases
+                <i class="fa-solid fa-scale-balanced"></i> Tratamento
+                especializado de casos jurídicos;
               </li>
               <li>
-                <i class="fa-solid fa-scale-balanced"></i> Cost-Effective Legal
-                Solutions
+                <i class="fa-solid fa-scale-balanced"></i> Soluções jurídicas
+                econômicas;
               </li>
               <li>
-                <i class="fa-solid fa-scale-balanced"></i> Rigorous Quality
-                Checks And Assurance
+                <i class="fa-solid fa-scale-balanced"></i> Qualidade Rigorosa
+                Verificações e Garantia;
               </li>
               <li>
-                <i class="fa-solid fa-scale-balanced"></i> Efficient Services
-                With Timely Responses
+                <i class="fa-solid fa-scale-balanced"></i> Serviços Eficientes
+                Com Respostas Oportunas.
               </li>
             </ul>
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
           </div>
           <div class="grid-content-image">
-            <img src="images/backgrounds/background_01.png" alt="" />
-            <img src="images/backgrounds/background_02.jpeg" alt="" />
-            <img src="images/backgrounds/background_03.jpeg" alt="" />
-            <img src="images/backgrounds/background_04.jpeg" alt="" />
+            <!-- <img src="images/backgrounds/background_01.png" alt="" /> -->
+            <img src="images/gallery/esa_01.jpeg" alt="" />
+            <img src="images/office/slide_03.jpeg" alt="" />
+            <img src="images/office/slide_04.jpeg" alt="" />
+            <img src="images/gallery/esa_04.jpeg" alt="" />
+            <!-- <img src="images/backgrounds/background_03.jpeg" alt="" /> -->
+            <!-- <img src="images/backgrounds/background_04.jpeg" alt="" /> -->
           </div>
           <div class="about-box">
             <p class="box-number">20</p>
             <p class="box-text">
-              Years Of <br />
-              Experience
+              Anos de <br />
+              Experiência
             </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- BTN -->
+    <section id="section-btn">
+      <div class="container flex-container">
+        <h2>Não Encontrou o que procura?</h2>
+        <p>
+          Você está com duvidas sobre o Direito e deseja falar com um
+          especialista?
+        </p>
+        <div>
+          <a target="_blank" href="#" class="btn btn-cont">Entrar em Contato</a>
+          <a target="_blank" href="info.html" class="btn btn-cont"
+            >Tire suas dúvidas</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: AREAS -->
+    <section class="section__areas py-3">
+      <div class="container">
+        <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Áreas de Atuação</h2>
+          <p class="header__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
+            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
+            cupiditate?
+          </p>
+        </header>
+
+        <div class="slider__cards owl-carousel">
+          <!-- AREA: 01 -->
+          <div class="flex__card areas__card card__01">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Direito Geral</h3>
+              <p class="card__text">
+                Receba aconselhamento jurídico especializado e consultoria para
+                navegar em questões jurídicas complexas com confiança.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREA: 02 -->
+          <div class="flex__card areas__card card__02">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Direito Corporativo</h3>
+              <p class="card__text">
+                Assistência na navegação do complexo cenário jurídico de leis e
+                regulamentações corporativas.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREAS: 03 -->
+          <div class="flex__card areas__card card__03">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Defesa Criminal</h3>
+              <p class="card__text">
+                Protegendo seus direitos e interesses e fornecendo uma defesa
+                robusta contra acusações criminais.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREA: 04 -->
+          <div class="flex__card areas__card card__04">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Propriedade intelectual</h3>
+              <p class="card__text">
+                Protegendo seus ativos intelectuais com experiência jurídica em
+                marcas registradas, patentes e direitos autorais.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREA: 05 -->
+          <div class="flex__card areas__card card__05">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Lei trabalhista</h3>
+              <p class="card__text">
+                Fornecendo consultoria jurídica e representação em questões
+                relacionadas a leis trabalhistas e de emprego.
+              </p>
+            </div>
+          </div>
+
+          <!-- AREA: 06 -->
+          <div class="flex__card areas__card card__06">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3 class="card__title">Direito Imobiliário</h3>
+              <p class="card__text">
+                Expertise jurídica na condução de transações imobiliárias,
+                contratos e disputas de propriedade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="btn__container">
+          <a href="#" class="btn btn-dark"
+            >Saiba Mais <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: SKILLS -->
+    <section class="section__skills py-3">
+      <div class="grid-container container">
+        <h1></h1>
+        <div>
+          <h2>Nossas Habilidades <i class="fa-solid fa-scale-balanced"></i></h2>
+          <h3>Expertise Jurídica Excepcional <br />E Serviços</h3>
+          <p>
+            O Escritório Edison Sobrinho Advocacia é dedicado a fornecer
+            experiência jurídica de alto nível e serviços que atendem às
+            diversas necessidades de nossos clientes, garantindo soluções
+            eficazes e resultados satisfatórios.
+          </p>
+          <h4>Consulta jurídica:</h4>
+          <div class="progress">
+            <div style="width: 96%"><span>96%</span></div>
+          </div>
+
+          <h4>Satisfação do cliente:</h4>
+          <div class="progress">
+            <div style="width: 100%"><span>100%</span></div>
+          </div>
+
+          <h4>Resolucão de Casos:</h4>
+          <div class="progress">
+            <div style="width: 97%"><span>97%</span></div>
+          </div>
+
+          <h4>Desenvolvimento de Estratégia Jurídica:</h4>
+          <div class="progress">
+            <div style="width: 98%"><span>98%</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: PROCESS -->
+    <section class="section__process py-3">
+      <div class="container">
+        <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Excelência em Processos
+            Legais
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Nosso Processo Legal</h2>
+          <p class="header__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
+            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
+            cupiditate?
+          </p>
+        </header>
+
+        <div class="slider__cards owl-carousel">
+          <!-- PROCESS: 01 -->
+          <div class="flex__card process__card card__01">
+            <p class="process__number">01</p>
+            <div>
+              <h3 class="card__title">Consulta Inicial</h3>
+              <p class="card__text">
+                Discuta suas necessidades e preocupações legais com nossos
+                advogados experientes.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROCESS: 02 -->
+          <div class="flex__card process__card card__02">
+            <p class="process__number">02</p>
+            <div>
+              <h3 class="card__title">Avaliação de caso</h3>
+              <p class="card__text">
+                Nossos especialistas jurídicos conduzem uma avaliação abrangente
+                do seu caso.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROCESS: 03 -->
+          <div class="flex__card process__card card__03">
+            <p class="process__number">03</p>
+            <div>
+              <h3 class="card__title">Pesquisa legal</h3>
+              <p class="card__text">
+                Realizamos pesquisas jurídicas aprofundadas, mantendo-nos
+                atualizados sobre leis relevantes.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROCESS: 04 -->
+          <div class="flex__card process__card card__04">
+            <p class="process__number">04</p>
+            <div>
+              <h3 class="card__title">Desenvolvimento de estratégia</h3>
+              <p class="card__text">
+                Formulamos um plano estratégico sob medida para suas
+                necessidades jurídicas, descrevendo a melhor abordagem.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROCESS: 05 -->
+          <div class="flex__card process__card card__05">
+            <p class="process__number">05</p>
+            <div>
+              <h3 class="card__title">Representação legal</h3>
+              <p class="card__text">
+                Realizamos pesquisas jurídicas aprofundadas, mantendo-nos
+                atualizados sobre leis relevantes.
+              </p>
+            </div>
+          </div>
+
+          <!-- PROCESS: 06 -->
+          <div class="flex__card process__card card__06">
+            <p class="process__number">06</p>
+            <div>
+              <h3 class="card__title">Comunicação com o cliente</h3>
+              <p class="card__text">
+                Mantemos uma comunicação aberta e transparente com nossos
+                clientes. Clientes e Clientes
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="btn__container">
+          <a href="#" class="btn btn-dark"
+            >Entrar em contato<i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-3 dark-bg">
+      <div class="container">
+        <div class="grid-container grid-4">
+          <div class="footer__logo">
+            <a href="index.html">
+              <img src="images/logos/logo_advocacia.png" alt="" />
+            </a>
+            <p class="footer__text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+              unde necessitatibus expedita, numquam modi magni, natus
+              perferendis dignissimos similique ipsa perspiciatis sunt deserunt
+              culpa nihil!
+            </p>
+          </div>
+
+          <div class="footer__social">
+            <h2 class="footer__title">Siga nossas redes sociais</h2>
+            <ul class="social-icons">
+              <li>
+                <a target="_blank" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__links">
+            <h2 class="footer__title">Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">O escritório</a></li>
+              <li><a href="#">Áreas de Atuação</a></li>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">Dúvidas</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__info">
+            <h2 class="footer__title">Contato</h2>
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-whatsapp"></i>(31) 9 9941-5092
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-envelope"></i>
+                  contato@edisonsobrinhoadvocacia.com.br
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-location-dot"></i>Avenida Augusto de
+                  Lima, 1646. Sl 1709 <br />
+                  Barro Preto - Belo Horizonte - Minas Gerais <br />
+                  30285-738
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="container">
+          <p class="copyright__info">
+            Copyright 2024
+            <a href="index.html"> &copy; Edison Sobrinho Advocacia</a> | Todos
+            os Direitos Reservados
+          </p>
+          <p class="developer__info">
+            Desenvolvido por
+            <a
+              target="_blank"
+              href="https://thiagotpsilva.github.io/portfolio/"
+            >
+              Thiago Silva
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#top" id="backTop">
+      <ion-icon class="scrollTop" name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- <a
+      id="contactIcon"
+      target="_blank"
+      href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
+      ><i class="fab fa-whatsapp"></i
+    ></a> -->
+    <!-- </main> -->
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      $('.slider__cards').owlCarousel({
+        loop: true,
+        // autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        // margin: 10,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+            // nav: true,
+          },
+          600: {
+            items: 3,
+            // nav: false,
+          },
+          1000: {
+            items: 4,
+            // nav: true,
+            // loop: false,
+          },
+        },
+      });
+    </script>
+
+    <script src="js/navbar.js"></script>
+    <!-- <script src="js/services_slider.js"></script> -->
+    <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/insta.js"></script>
+
+    <!-- SECTION SERVICES -->
+    <!-- <section class="section__services">
+      <div class="container">
+ 
+        <div class="sliderCards owl-carousel">
+          <div class="services-card card_01 flex-card">
+            <i class="fa-solid fa-scale-balanced fa-2x"></i>
+            <div>
+              <h3>Crimes Econômicos</h3>
+              <p>
+                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
+                previdenciária, concorrência desleal, crimes falimentares,
+                crimes licitatórios, crimes ambientais, gestão fraudulenta,
+                evasão de divisas, estelionato, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_02 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Tribunal do Juri</h3>
+              <p>
+                Homicídio, tentativa de homicídio, homicídio com dolo eventual,
+                homicídio passional, aborto, feminicídio, infanticídio e
+                instigação ao suicídio.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_03 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Crimes Culposos</h3>
+              <p>
+                Crimes de trânsito, erro médico, desabamento ou desmoronamento,
+                incêndio, inundação, difusão de doença, epidemia, desastre em
+                meio de transporte, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_04 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Lei Maria da Penha</h3>
+              <p>
+                Violência física contra a mulher, violência psicológica contra a
+                mulher, violência sexual contra a mulher, violência moral contra
+                a mulher, medidas protetivas de urgência, perseguição (stalker),
+                etc
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_05 flex-card">
+            <i class="fa-solid fa-section fa-2x"></i>
+            <div>
+              <h3>Crimes informáticos</h3>
+              <p>
+                Invasão de dispositivo informático, interrupção de serviço
+                informático, fraudes informáticas, falsificação de documentos
+                informáticos, interceptação de comunicações, espionagem
+                industrial, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="services-card card_06 flex-card">
+            <i class="fa-solid fa-gavel fa-2x"></i>
+            <div>
+              <h3>Crimes de opinião</h3>
+              <p>
+                Calúnia, difamação, injúria, incitação, apologia, crimes contra
+                o sentimento religioso, intimidação sistemática (bullyng),
+                crimes de preconceito ou discriminação de raça, cor, etnia,
+                religião, procedência nacional, etc.
+              </p>
+              <a href="#" class="btn btn-primary"
+                >Entrar em contato <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
 
     <!-- INSTAGRAM -->
 
@@ -684,563 +1192,5 @@
         </div>
       </div>
     </section>  -->
-
-    <!-- BTN -->
-    <section id="section-btn">
-      <div class="container flex-container">
-        <h2>Não Encontrou o que procura?</h2>
-        <p>
-          Você está com duvidas sobre o Direito e deseja falar com um
-          especialista?
-        </p>
-        <div>
-          <a target="_blank" href="#" class="btn btn-cont">Entrar em Contato</a>
-          <a target="_blank" href="info.html" class="btn btn-cont"
-            >Tire suas dúvidas</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <section class="section-teste">
-      <div class="container">
-        <header class="section-header">
-          <h3>
-            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
-            <i class="fa-solid fa-scale-balanced"></i>
-          </h3>
-          <h2>Áreas de Atuação</h2>
-          <p>
-            Temos diversificada experiência, adquirida ao longo de anos de
-            atuação na advocacia e durante o ensino universitário,
-            principalmente nas seguintes áreas:
-          </p>
-        </header>
-
-        <div class="grid-container grid-4">
-          <!-- <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-            </div>
-          </div> -->
-
-          <!-- <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-            </div>
-          </div> -->
-          <!-- 
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-            </div>
-          </div> -->
-          <!-- 
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-            </div>
-          </div> -->
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-              <!-- <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a> -->
-            </div>
-          </div>
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-              <!-- <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a> -->
-            </div>
-          </div>
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-              <!-- <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a> -->
-            </div>
-          </div>
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-              <!-- <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a> -->
-            </div>
-          </div>
-        </div>
-
-        <div class="btn__container">
-          <a href="#" class="btn btn-dark"
-            >Saiba Mais <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION SERVICES -->
-    <!-- <section class="section__services">
-      <div class="container">
-        <header class="section-header">
-          <h3>
-            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
-            <i class="fa-solid fa-scale-balanced"></i>
-          </h3>
-          <h2>Áreas de Atuação</h2>
-          <p>
-            Temos diversificada experiência, adquirida ao longo de anos de
-            atuação na advocacia e durante o ensino universitário,
-            principalmente nas seguintes áreas:
-          </p>
-        </header>
-        <div class="sliderCards owl-carousel">
-          <div class="services-card card_01 flex-card">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3>Crimes Econômicos</h3>
-              <p>
-                Lavagem de dinheiro, sonegação fiscal, apropriação indébita
-                previdenciária, concorrência desleal, crimes falimentares,
-                crimes licitatórios, crimes ambientais, gestão fraudulenta,
-                evasão de divisas, estelionato, etc.
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="services-card card_02 flex-card">
-            <i class="fa-solid fa-section fa-2x"></i>
-            <div>
-              <h3>Tribunal do Juri</h3>
-              <p>
-                Homicídio, tentativa de homicídio, homicídio com dolo eventual,
-                homicídio passional, aborto, feminicídio, infanticídio e
-                instigação ao suicídio.
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="services-card card_03 flex-card">
-            <i class="fa-solid fa-section fa-2x"></i>
-            <div>
-              <h3>Crimes Culposos</h3>
-              <p>
-                Crimes de trânsito, erro médico, desabamento ou desmoronamento,
-                incêndio, inundação, difusão de doença, epidemia, desastre em
-                meio de transporte, etc.
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="services-card card_04 flex-card">
-            <i class="fa-solid fa-section fa-2x"></i>
-            <div>
-              <h3>Lei Maria da Penha</h3>
-              <p>
-                Violência física contra a mulher, violência psicológica contra a
-                mulher, violência sexual contra a mulher, violência moral contra
-                a mulher, medidas protetivas de urgência, perseguição (stalker),
-                etc
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="services-card card_05 flex-card">
-            <i class="fa-solid fa-section fa-2x"></i>
-            <div>
-              <h3>Crimes informáticos</h3>
-              <p>
-                Invasão de dispositivo informático, interrupção de serviço
-                informático, fraudes informáticas, falsificação de documentos
-                informáticos, interceptação de comunicações, espionagem
-                industrial, etc.
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="services-card card_06 flex-card">
-            <i class="fa-solid fa-gavel fa-2x"></i>
-            <div>
-              <h3>Crimes de opinião</h3>
-              <p>
-                Calúnia, difamação, injúria, incitação, apologia, crimes contra
-                o sentimento religioso, intimidação sistemática (bullyng),
-                crimes de preconceito ou discriminação de raça, cor, etnia,
-                religião, procedência nacional, etc.
-              </p>
-              <a href="#" class="btn btn-primary"
-                >Entrar em contato <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="section__skills py-4">
-      <div class="grid-container container">
-        <h1></h1>
-        <div>
-          <h2>Our Skills <i class="fa-solid fa-scale-balanced"></i></h2>
-          <h3>Exceptional Legal Expertise <br />And Services</h3>
-          <p>
-            At VerityLaw, We Are Dedicated To Providing Top-Notch Legal
-            Expertise And Services That Cater To Our Clients' Diverse Needs,
-            Ensuring Effective Solutions And Satisfactory Outcomes.
-          </p>
-          <h4>Legal Consultation</h4>
-          <div class="progress">
-            <div style="width: 76%"><span>76%</span></div>
-          </div>
-
-          <h4>Client Satisfaction:</h4>
-          <div class="progress">
-            <div style="width: 100%"><span>100%</span></div>
-          </div>
-
-          <h4>Case Resolution:</h4>
-          <div class="progress">
-            <div style="width: 98%"><span>98%</span></div>
-          </div>
-
-          <h4>Legal Strategy Development</h4>
-          <div class="progress">
-            <div style="width: 98%"><span>98%</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: PROCESS -->
-    <section class="section__process py-3">
-      <div class="container">
-        <header class="section-header">
-          <h3>
-            <i class="fa-solid fa-scale-balanced"></i> Excellence In Legal
-            Processes
-            <i class="fa-solid fa-scale-balanced"></i>
-          </h3>
-          <h2>Our Legal Process</h2>
-          <p>
-            Abaixo você encontrará respostas para as perguntas que mais nos
-            fazem sobre nossos passeios
-          </p>
-        </header>
-
-        <div class="slider__cards owl-carousel">
-          <!-- PROCESS: 01 -->
-          <div class="process__card card__01">
-            <p class="process__number">01</p>
-            <div>
-              <h3 class="card__title">Initial Consultation</h3>
-              <p class="card__text">
-                Discuss Your Legal Needs And Concerns With Our Experienced
-                Attorneys.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 02 -->
-          <div class="process__card card__02">
-            <p class="process__number">02</p>
-            <div>
-              <h3 class="card__title">Case Assessment</h3>
-              <p class="card__text">
-                Our Legal Experts Conduct A Comprehensive Assessment Of Your
-                Case.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 03 -->
-          <div class="process__card card__03">
-            <p class="process__number">03</p>
-            <div>
-              <h3 class="card__title">Legal Research</h3>
-              <p class="card__text">
-                We Perform In-Depth Legal Research, Staying Updated On Relevant
-                Laws.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 04 -->
-          <div class="process__card card__04">
-            <p class="process__number">04</p>
-            <div>
-              <h3 class="card__title">Strategy Development</h3>
-              <p class="card__text">
-                We Formulate A Strategic Plan Tailored To Your Legal Needs,
-                Outlining The Best Approach.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 05 -->
-          <div class="process__card card__05">
-            <p class="process__number">05</p>
-            <div>
-              <h3 class="card__title">Legal Representation</h3>
-              <p class="card__text">
-                We Perform In-Depth Legal Research, Staying Updated On Relevant
-                Laws.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 06 -->
-          <div class="process__card card__06">
-            <p class="process__number">06</p>
-            <div>
-              <h3 class="card__title">Client Communication</h3>
-              <p class="card__text">
-                We Maintain Open And Transparent Communication With Our Clients.
-                Clientes and Clientes
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="btn__container">
-          <a href="#" class="btn btn-dark"
-            >Entrar em contato<i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="footer py-3 dark-bg">
-      <div class="container">
-        <div class="grid-container grid-4">
-          <div class="footer__logo">
-            <a href="index.html">
-              <img src="images/logos/logo_advocacia.png" alt="" />
-            </a>
-            <p class="footer__text">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
-              unde necessitatibus expedita, numquam modi magni, natus
-              perferendis dignissimos similique ipsa perspiciatis sunt deserunt
-              culpa nihil!
-            </p>
-          </div>
-
-          <div class="footer__social">
-            <h2 class="footer__title">Siga nossas redes sociais</h2>
-            <ul class="social-icons">
-              <li>
-                <a target="_blank" href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li>
-                <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a>
-              </li>
-              <li>
-                <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__links">
-            <h2 class="footer__title">Links</h2>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">O escritório</a></li>
-              <li><a href="#">Áreas de Atuação</a></li>
-              <li><a href="#">Fale conosco</a></li>
-              <li><a href="#">Dúvidas</a></li>
-            </ul>
-          </div>
-
-          <div class="footer__info">
-            <h2 class="footer__title">Contato</h2>
-            <ul>
-              <li>
-                <a href="#">
-                  <i class="fa-brands fa-whatsapp"></i>(31) 9 9941-5092
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa-solid fa-envelope"></i>
-                  contato@edisonsobrinhoadvocacia.com.br
-                </a>
-              </li>
-
-              <li>
-                <a href="#">
-                  <i class="fa-solid fa-location-dot"></i>Avenida Augusto de
-                  Lima, 1646. Sl 1709 Barro Preto - Belo Horizonte - Minas
-                  Gerais <br />
-                  30285-738
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer__copyright">
-        <div class="container">
-          <p class="copyright__info">
-            Copyright 2024
-            <a href="index.html"> &copy; Edison Sobrinho Advocacia</a> | Todos
-            os Direitos Reservados
-          </p>
-          <p class="developer__info">
-            Desenvolvido por
-            <a
-              target="_blank"
-              href="https://thiagotpsilva.github.io/portfolio/"
-            >
-              Thiago Silva
-            </a>
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- SCROLL TOP -->
-    <a href="#top" id="backTop">
-      <ion-icon class="scrollTop" name="chevron-up-outline"></ion-icon>
-    </a>
-
-    <!-- <a
-      id="contactIcon"
-      target="_blank"
-      href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
-      ><i class="fab fa-whatsapp"></i
-    ></a> -->
-    <!-- </main> -->
-    <!-- <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script> -->
-
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-
-    <script>
-      $('.slider__cards').owlCarousel({
-        loop: true,
-        autoplay: true,
-        autoplayTimeout: 2000, //2000ms = 2s;
-        autoplayHoverPause: true,
-        // margin: 10,
-        responsiveClass: true,
-        responsive: {
-          0: {
-            items: 1,
-            // nav: true,
-          },
-          600: {
-            items: 3,
-            // nav: false,
-          },
-          1000: {
-            items: 4,
-            // nav: true,
-            // loop: false,
-          },
-        },
-      });
-    </script>
-
-    <script src="js/navbar.js"></script>
-    <!-- <script src="js/services_slider.js"></script> -->
-    <script src="js/slider.js"></script>
-    <script src="js/scroll.js"></script>
-    <script src="js/preloader.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/hamburger.js"></script>
-    <script src="js/insta.js"></script>
   </body>
 </html>

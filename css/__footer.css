@@ -20,9 +20,9 @@
 }
 
 .footer__text {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.4rem;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 
 .footer__social {
@@ -66,7 +66,7 @@
 .footer__links a {
   text-transform: none;
   line-height: 1.7;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.7rem;
   transition: all 0.2s ease-in-out;
 }
@@ -79,9 +79,13 @@
   height: 100%;
 }
 
+.footer__info li {
+  margin-top: 0.3rem;
+}
+
 .footer__info a {
   text-transform: none;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.7;
   font-size: 1.5rem;
   transition: all 0.2s ease-in-out;

@@ -1,13 +1,18 @@
 /* SECTION SKILLS */
 .section__skills {
   background-image: url('../assets/Skills.jpg');
+  background-image: url('../images/office/teste_03.jpeg');
+  /* background-image: url('../images/office/slide_02.jpeg '); */
+  /* background-image: url('../images/gallery/esa_01.jpeg'); */
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   color: #fff;
   padding: 3rem;
+  /* background: rgba(0, 0, 0, 0.1); */
+
   overflow: hidden;
 }
 

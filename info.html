@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -15,23 +12,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/variables.css" />
-    <link rel="stylesheet" href="css/scroll.css" />
+    <link rel="stylesheet" href="css/__variables.css" />
+    <link rel="stylesheet" href="css/__reset.css" />
+    <link rel="stylesheet" href="css/__scroll.css" />
+    <link rel="stylesheet" href="css/__menu.css" />
+    <link rel="stylesheet" href="css/__footer.css" />
+    <link rel="stylesheet" href="css/__section__header.css" />
+    <link rel="stylesheet" href="css/__section__btn.css" />
+    <link rel="stylesheet" href="css/page__info.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/footer.css" />
+
     <title>Dúvidas Frequentes | Edison Sobrinho Advocacia</title>
   </head>
   <body id="top">
-    <!-- HEADER -->
+    <!-- MOBILE MENU -->
     <div id="overlay"></div>
     <div id="mobile-menu" class="mobile-main-menu">
       <a class="logo" href="index.html">
@@ -50,6 +46,8 @@
         <li><a href="info.html" class="current-link">Dúvidas</a></li>
       </ul>
     </div>
+
+    <!-- HEADER: NAVBAR & HERO -->
     <header id="hero-info" class="hero">
       <nav class="navbar">
         <div class="container">
@@ -63,14 +61,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">O Escritório</a></li>
             <li><a href="tour.html">Áreas de Atuação</a></li>
-            <!-- <li><a href="gallery.html">Blog</a></li> -->
-            <li>
-              <a
-                target="_blank"
-                href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
-                >Fale Conosco</a
-              >
-            </li>
+            <li><a href="#">Fale Conosco</a></li>
             <li>
               <a href="info.html" class="current-link">Dúvidas</a>
             </li>
@@ -78,7 +69,6 @@
         </div>
       </nav>
       <div class="hero-content">
-        <!-- <h2>Não seja tímido, obtenha</h2> -->
         <h1>Informações</h1>
       </div>
     </header>
@@ -90,27 +80,27 @@
       <span class="hamburger-bottom"></span>
     </buttton>
 
-    <!-- FAQ -->
-    <section id="section-faq" class="light-bg py-2">
+    <!-- SECTION: FAQ -->
+    <section id="section__faq" class="light__bg py__2">
       <div class="container">
-        <header class="section-header">
-          <h3>Nós podemos ajudar você!</h3>
-          <h2>Está com alguma dúvida?</h2>
-          <p>
+        <header class="section__header">
+          <h3 class="header__top">Nós podemos ajudar você!</h3>
+          <h2 class="header__main">Está com alguma dúvida?</h2>
+          <p class="header__content">
             Abaixo você encontrará respostas para as perguntas que mais nos
             fazem sobre nossos passeios
           </p>
         </header>
 
-        <div class="grid-container">
-          <div class="flex-container">
+        <div class="grid__container">
+          <div class="flex__container">
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>Podemos levar o nosso cooler na embarcação?</p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Nossa embarcação permite a entrada de coolers, tendo a opção
                   de vocês levarem ou consumir na embarcação, onde vendemos
@@ -120,12 +110,12 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>É permitido a entrada de animais durante o passeio?</p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Sim, desde que o animal esteja sempre sob supervisão de seus
                   donos
@@ -134,12 +124,12 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>E se a marinha cancelar o passeio na data marcada?</p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Caso a aconteça será combinado um novo dia para o passeio ou o
                   cancelamento com devolução total do valor pago.
@@ -148,7 +138,7 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>
                   Durante o passeio privativo, podemos alterar o roteiro do
                   passeio?
@@ -156,7 +146,7 @@
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Sim, durante o passeio privativo todo o tempo do passeio é
                   destinado às paradas preferidas de vocês, caso não queira
@@ -167,16 +157,16 @@
             </div>
           </div>
 
-          <div class="flex-container">
+          <div class="flex__container">
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>
                   Em alguma parada do passeio nós podemos parar para saltar ?
                 </p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Sim, temos parada específica para as pessoas mais aventureiras
                   que gostam de pular do barco. Geralmente essa é a nossa última
@@ -189,12 +179,12 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>A taxa de embarque já está inclusa no valor do passeio?</p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Não, a taxa de embarque é de responsabilidade de nossos
                   turistas, todos eles após check in são levados para a
@@ -206,12 +196,12 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>O barco é seguro e possui material de salvatagem?</p>
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Sim. Todos os nossos profissionais são altamente qualificados
                   para garantir a segurança de nossos turistas. Nossa embarcação
@@ -223,7 +213,7 @@
             </div>
 
             <div class="faq">
-              <button type="button" class="faq-button">
+              <button type="button" class="faq__button">
                 <p>
                   Caso eu feche o passeio privativo, é possível fazer um
                   churrasco?
@@ -231,7 +221,7 @@
                 <i class="fa-solid fa-plus open"></i>
                 <i class="fa-solid fa-xmark close"></i>
               </button>
-              <div class="faq-content">
+              <div class="faq__content">
                 <p>
                   Sim, temos todo o material para disponibilizar para vocês
                   assarem o churrasco. (Carvão, vasilhas, tábua de carne, garfo
@@ -244,25 +234,22 @@
       </div>
     </section>
 
-    <!-- BTN -->
-    <section id="section-btn">
-      <div class="container flex-container">
+    <!-- SECTION: BTN -->
+    <section id="section__btn">
+      <div class="container flex__container">
         <h2>Não Encontrou o que procura?</h2>
-        <div>
-          <a
-            target="_blank"
-            href="https://api.whatsapp.com/send/?phone=5522999980658&text&type=phone_number&app_absent=0"
-            class="btn btn-cont"
-            >Entrar em Contato</a
-          >
+        <div class="btn__container">
+          <a target="_blank" href="#" class="btn btn__primary"
+            >Entrar em Contato <i class="fas fa-chevron-right"></i>
+          </a>
         </div>
       </div>
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer py-3 dark-bg">
+    <footer class="footer py__3 dark__bg">
       <div class="container">
-        <div class="grid-container grid-4">
+        <div class="grid__container grid__4">
           <div class="footer__logo">
             <a href="index.html">
               <img src="images/logos/logo_advocacia.png" alt="" />
@@ -290,7 +277,9 @@
                 <a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a>
               </li>
               <li>
-                <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+                <a target="_blank" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
               </li>
             </ul>
           </div>

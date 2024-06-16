@@ -1,4 +1,4 @@
-const faqs = document.querySelectorAll('.faq-button');
+const faqs = document.querySelectorAll('.faq__button');
 
 faqs.forEach((faq) => {
   faq.addEventListener('click', () => {
