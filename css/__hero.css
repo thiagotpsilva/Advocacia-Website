@@ -24,7 +24,7 @@
 
 .hero .hero__content {
   text-transform: uppercase;
-  max-width: 100rem;
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 3rem;
   display: flex;

@@ -55,7 +55,6 @@
 .navbar.active {
   transition: background 0.6s ease-in-out;
   background-color: #fff;
-  z-index: 100;
   background-color: var(--dark-color);
   z-index: 1000;
 }

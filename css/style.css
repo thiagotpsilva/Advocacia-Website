@@ -1,3 +1,23 @@
+.card__category {
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+.areas__list li {
+  list-style-type: square;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px dotted #555;
+  width: 90%;
+}
+.list li a {
+  color: var(--dark-color) !important;
+}
+.list li a:hover {
+  color: var(--primary-color) !important;
+}
+
 .switcher {
   margin: 0 auto;
   display: flex;

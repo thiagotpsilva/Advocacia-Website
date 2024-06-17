@@ -38,6 +38,11 @@
 }
 
 /* BACKGROUNDS */
+.primary__bg {
+  background-color: var(--primary-color) !important;
+  color: var(--light-color);
+}
+
 .light__bg {
   background-color: var(--light-color);
 }
@@ -78,6 +83,13 @@
   opacity: 0.9;
 }
 
+.btn__block {
+  display: block;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .btn__primary {
   background-color: var(--primary-color);
 }
@@ -112,12 +124,6 @@
   background-color: var(--dark-color);
   background-color: #ab7f34;
   background-color: var(--primary-color);
-} */
-
-/* .btn-block {
-  display: block;
-  width: 90%;
-  text-align: center;
 } */
 
 /* INNER PAGE CONTAINER */

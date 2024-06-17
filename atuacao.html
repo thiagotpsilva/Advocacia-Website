@@ -35,6 +35,8 @@
     <link rel="stylesheet" href="css/section__services.css" />
     <link rel="stylesheet" href="css/section__about.css" />
     <link rel="stylesheet" href="css/page__home.css" />
+    <link rel="stylesheet" href="css/page__info.css" />
+    <link rel="stylesheet" href="css/page__areas.css" />
     <title>Home | Edison Sobrinho Advocacia</title>
   </head>
   <body id="top">
@@ -49,9 +51,11 @@
         />
       </a>
       <ul>
-        <li><a class="current-link" href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">O Escritório</a></li>
-        <li><a href="atuacao.html">Áreas de Atuação</a></li>
+        <li>
+          <a class="current-link" href="atuacao.html">Áreas de Atuação</a>
+        </li>
         <li>
           <a href="#">Fale Conosco</a>
         </li>
@@ -60,77 +64,30 @@
     </div>
 
     <!-- HEADER: NAVBAR & HERO -->
-    <header id="hero-home" class="hero">
+    <header id="hero__areas" class="hero">
       <nav class="navbar">
         <div class="container">
           <a class="logo" href="index.html">
-            <img src="images/logos/logo_advocacia.png" alt="Baruch Turismo" />
+            <img
+              src="images/logos/logo_advocacia.png"
+              alt="Logomarca Edison Sobrinho Advocacia"
+            />
           </a>
           <ul>
-            <li><a class="current-link" href="index.html">Home</a></li>
-            <li><a href="about.html">O Escritório</a></li>
-            <li><a href="atuacao.html">Áreas de Atuação</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">O Escritório</a></li>
             <li>
-              <a href="#">Fale Conosco</a>
+              <a class="current-link" href="atuacao.html">Áreas de Atuação</a>
             </li>
-            <li><a href="info.html">Dúvidas</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li>
+              <a href="info.html">Dúvidas</a>
+            </li>
           </ul>
         </div>
       </nav>
-      <div class="slider">
-        <!-- SLIDE 01 -->
-        <div class="slide current">
-          <img src="images/office/office_01.jpeg" alt="" />
-          <div class="content">
-            <h1>
-              Protegendo seus
-              <span class="text__primary">Direitos de <br />propriedade</span>
-              intelectual
-            </h1>
-            <div class="btn__container">
-              <a href="#" class="btn btn__primary">
-                Agende uma consulta <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- SLIDE 02 -->
-        <div class="slide">
-          <img src="images/office/office_02.jpeg" alt="" />
-          <div class="content">
-            <h1>
-              Defendendo seus direitos com <br />
-              <span class="text__primary">Defesa Criminal</span>
-            </h1>
-            <div class="btn__container">
-              <a href="#" class="btn btn__primary">
-                Agende uma consulta <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- SLIDE 03 -->
-        <div class="slide">
-          <img src="images/office/office_03.jpeg" alt="" />
-          <div class="content">
-            <h1>
-              Consultoria
-              <span class="text__primary">Estratégica</span> para <br />
-              sucesso corporativo
-            </h1>
-            <div class="btn__container">
-              <a href="#" class="btn btn__primary">
-                Agende uma consulta <i class="fas fa-chevron-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="arrows">
-        <button id="prev"><i class="fas fa-chevron-left fa-3x"></i></button>
-        <button id="next"><i class="fas fa-chevron-right fa-3x"></i></button>
+      <div class="hero__content">
+        <h1>Áreas de Atuação</h1>
       </div>
     </header>
 
@@ -142,7 +99,7 @@
     </buttton>
 
     <!-- SECTION: SERVICES -->
-    <section id="section__services">
+    <!-- <section id="section__services">
       <div class="services__container">
         <div class="grid__container grid__4">
           <div class="services__card">
@@ -212,10 +169,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- SECTION: ABOUT -->
-    <section class="section__about py__4">
+    <!-- <section class="section__about py__4">
       <div class="container">
         <div class="grid__container">
           <div class="grid__content">
@@ -275,6 +232,193 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <!-- SECTION: AREAS -->
+    <section id="areas" class="section__areas py__3">
+      <div class="container">
+        <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Áreas de Atuação</h2>
+          <p class="header__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
+            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
+            cupiditate?
+          </p>
+        </header>
+
+        <div class="grid__container grid__4">
+          <!-- AREA: 01 -->
+          <div class="flex__card areas__card card__01">
+            <a target="_blank" href="direito__penal.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito do Trabalho</h3>
+                <p class="card__text">
+                  Também conhecido como direito trabalhista, o direito do
+                  trabalho é o ramo responsável por regular a relação entre
+                  trabalhador e empregado
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 02 -->
+          <div class="flex__card areas__card card__02">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito do Consumidor</h3>
+                <p class="card__text">
+                  Com a atuação nas relações entre fornecedores e consumidores,
+                  o Direito do Consumidor determina regras e princípios para as
+                  relações de consumo.
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 03 -->
+          <div class="flex__card areas__card card__03">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito Civil</h3>
+                <p class="card__text">
+                  Também conhecido como direito do cidadão, o Direito Civil
+                  compreende e determina os direitos e deveres de todo cidadão,
+                  as relações em sociedade e as ações privadas.
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 04 -->
+          <div class="flex__card areas__card card__04">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito Tributário</h3>
+                <p class="card__text">
+                  Com a tributação sendo alvo de muita dúvida e questionamentos,
+                  o direito tributário tem como principal objetivo contribuir
+                  para regular a cobrança
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 05 -->
+          <div class="flex__card areas__card card__05">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito Empresarial</h3>
+                <p class="card__text">
+                  Visando a redução de prejuízos e aumento de lucros para as
+                  empresas, por meio do direito empresarial, atuamos com a
+                  orientação para empresários na análise de riscos e
+                  oportunidades
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 06 -->
+          <div class="flex__card areas__card card__06">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Inventários</h3>
+                <p class="card__text">
+                  Também conhecido como direito do cidadão, o Direito Civil
+                  compreende e determina os direitos e deveres de todo cidadão,
+                  as relações em sociedade e as ações privadas.
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 07 -->
+          <div class="flex__card areas__card card__01">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Direito Penal</h3>
+                <p class="card__text">
+                  Também conhecido como direito do cidadão, o Direito Civil
+                  compreende e determina os direitos e deveres de todo cidadão,
+                  as relações em sociedade e as ações privadas.
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- AREA: 08 -->
+          <div class="flex__card areas__card card__01">
+            <a href="index.html" class="card__link">
+              <i class="fa-solid fa-scale-balanced fa-2x"></i>
+              <div class="card__content">
+                <h3 class="card__title">Inventários</h3>
+                <p class="card__text">
+                  Também conhecido como direito do cidadão, o Direito Civil
+                  compreende e determina os direitos e deveres de todo cidadão,
+                  as relações em sociedade e as ações privadas.
+                </p>
+                <div class="btn__container">
+                  <a href="#" class="btn btn__primary">
+                    Saiba mais <i class="fas fa-chevron-right"> </i
+                  ></a>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="btn__container">
+          <a href="#" class="btn btn__dark">
+            Saiba Mais <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- SECTION: BTN -->
@@ -291,240 +435,6 @@
           </a>
           <a target="_blank" href="info.html" class="btn btn__primary">
             Tire suas dúvidas <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: AREAS -->
-    <section class="section__areas py__3">
-      <div class="container">
-        <header class="section__header">
-          <h3 class="header__top">
-            <i class="fa-solid fa-scale-balanced"></i> Nossos serviços legais
-            <i class="fa-solid fa-scale-balanced"></i>
-          </h3>
-          <h2 class="header__main">Áreas de Atuação</h2>
-          <p class="header__content">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
-            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
-            cupiditate?
-          </p>
-        </header>
-
-        <div class="slider__cards owl-carousel">
-          <!-- AREA: 01 -->
-          <div class="flex__card areas__card card__01">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Direito Geral</h3>
-              <p class="card__text">
-                Receba aconselhamento jurídico especializado e consultoria para
-                navegar em questões jurídicas complexas com confiança.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREA: 02 -->
-          <div class="flex__card areas__card card__02">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Direito Corporativo</h3>
-              <p class="card__text">
-                Assistência na navegação do complexo cenário jurídico de leis e
-                regulamentações corporativas.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREAS: 03 -->
-          <div class="flex__card areas__card card__03">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Defesa Criminal</h3>
-              <p class="card__text">
-                Protegendo seus direitos e interesses e fornecendo uma defesa
-                robusta contra acusações criminais.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREA: 04 -->
-          <div class="flex__card areas__card card__04">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Propriedade intelectual</h3>
-              <p class="card__text">
-                Protegendo seus ativos intelectuais com experiência jurídica em
-                marcas registradas, patentes e direitos autorais.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREA: 05 -->
-          <div class="flex__card areas__card card__05">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Lei trabalhista</h3>
-              <p class="card__text">
-                Fornecendo consultoria jurídica e representação em questões
-                relacionadas a leis trabalhistas e de emprego.
-              </p>
-            </div>
-          </div>
-
-          <!-- AREA: 06 -->
-          <div class="flex__card areas__card card__06">
-            <i class="fa-solid fa-scale-balanced fa-2x"></i>
-            <div>
-              <h3 class="card__title">Direito Imobiliário</h3>
-              <p class="card__text">
-                Expertise jurídica na condução de transações imobiliárias,
-                contratos e disputas de propriedade.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="btn__container">
-          <a href="atuacao.html" class="btn btn__dark">
-            Saiba Mais <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: SKILLS -->
-    <section class="section__skills py__3">
-      <div class="grid__container container">
-        <div></div>
-        <div>
-          <h2>Nossas Habilidades <i class="fa-solid fa-scale-balanced"></i></h2>
-          <h3>Expertise Jurídica Excepcional <br />E Serviços</h3>
-          <p>
-            O Escritório Edison Sobrinho Advocacia é dedicado a fornecer
-            experiência jurídica de alto nível e serviços que atendem às
-            diversas necessidades de nossos clientes, garantindo soluções
-            eficazes e resultados satisfatórios.
-          </p>
-          <h4>Consulta jurídica:</h4>
-          <div class="progress">
-            <div style="width: 96%"><span>96%</span></div>
-          </div>
-
-          <h4>Satisfação do cliente:</h4>
-          <div class="progress">
-            <div style="width: 100%"><span>100%</span></div>
-          </div>
-
-          <h4>Resolucão de Casos:</h4>
-          <div class="progress">
-            <div style="width: 97%"><span>97%</span></div>
-          </div>
-
-          <h4>Desenvolvimento de Estratégia Jurídica:</h4>
-          <div class="progress">
-            <div style="width: 98%"><span>98%</span></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION: PROCESS -->
-    <section class="section__process py__3">
-      <div class="container">
-        <header class="section__header">
-          <h3 class="header__top">
-            <i class="fa-solid fa-scale-balanced"></i> Excelência em Processos
-            Legais
-            <i class="fa-solid fa-scale-balanced"></i>
-          </h3>
-          <h2 class="header__main">Nosso Processo Legal</h2>
-          <p class="header__content">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
-            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
-            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
-            cupiditate?
-          </p>
-        </header>
-
-        <div class="slider__cards owl-carousel">
-          <!-- PROCESS: 01 -->
-          <div class="flex__card process__card card__01">
-            <p class="process__number">01</p>
-            <div>
-              <h3 class="card__title">Consulta Inicial</h3>
-              <p class="card__text">
-                Discuta suas necessidades e preocupações legais com nossos
-                advogados experientes.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 02 -->
-          <div class="flex__card process__card card__02">
-            <p class="process__number">02</p>
-            <div>
-              <h3 class="card__title">Avaliação de caso</h3>
-              <p class="card__text">
-                Nossos especialistas jurídicos conduzem uma avaliação abrangente
-                do seu caso.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 03 -->
-          <div class="flex__card process__card card__03">
-            <p class="process__number">03</p>
-            <div>
-              <h3 class="card__title">Pesquisa legal</h3>
-              <p class="card__text">
-                Realizamos pesquisas jurídicas aprofundadas, mantendo-nos
-                atualizados sobre leis relevantes.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 04 -->
-          <div class="flex__card process__card card__04">
-            <p class="process__number">04</p>
-            <div>
-              <h3 class="card__title">Desenvolvimento de estratégia</h3>
-              <p class="card__text">
-                Formulamos um plano estratégico sob medida para suas
-                necessidades jurídicas, descrevendo a melhor abordagem.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 05 -->
-          <div class="flex__card process__card card__05">
-            <p class="process__number">05</p>
-            <div>
-              <h3 class="card__title">Representação legal</h3>
-              <p class="card__text">
-                Realizamos pesquisas jurídicas aprofundadas, mantendo-nos
-                atualizados sobre leis relevantes.
-              </p>
-            </div>
-          </div>
-
-          <!-- PROCESS: 06 -->
-          <div class="flex__card process__card card__06">
-            <p class="process__number">06</p>
-            <div>
-              <h3 class="card__title">Comunicação com o cliente</h3>
-              <p class="card__text">
-                Mantemos uma comunicação aberta e transparente com nossos
-                clientes. Clientes e Clientes
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="btn__container">
-          <a href="#" class="btn btn__dark"
-            >Entrar em contato<i class="fas fa-chevron-right"></i>
           </a>
         </div>
       </div>
