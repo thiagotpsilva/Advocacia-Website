@@ -1,6 +1,6 @@
 /* SECTION: SKILLS */
 .section__skills {
-  background-image: url('../images/office/office_05.jpeg');
+  background-image: url('../images/office/19182825-747c-44bb-953b-536b0c046027.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@
   transform: skewX(20deg);
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: -1;
 }
 
