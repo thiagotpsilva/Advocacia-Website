@@ -1,18 +1,12 @@
-/* SECTION SKILLS */
+/* SECTION: SKILLS */
 .section__skills {
-  background-image: url('../assets/Skills.jpg');
-  background-image: url('../images/office/teste_03.jpeg');
-  /* background-image: url('../images/office/slide_02.jpeg '); */
-  /* background-image: url('../images/gallery/esa_01.jpeg'); */
+  background-image: url('../images/office/office_05.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   z-index: 1;
   color: #fff;
-  padding: 3rem;
-  /* background: rgba(0, 0, 0, 0.1); */
-
   overflow: hidden;
 }
 
@@ -24,7 +18,7 @@
   transform: skewX(20deg);
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.85);
   z-index: -1;
 }
 
@@ -59,13 +53,14 @@
   align-items: center;
   height: 100%;
   right: 15px;
-  color: var(--dark-color);
+  color: var(--light-color);
+  opacity: 0.6;
   font-weight: bold;
 }
 
 .progress div {
   height: 100%;
-  color: #fff;
+  color: var(--light-color);
   text-align: center;
   background-color: var(--primary-color);
 }

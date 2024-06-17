@@ -1,4 +1,4 @@
-/* CONTAINER */
+/* CONTAINERS */
 .container {
   max-width: var(--max-width);
   overflow: hidden;
@@ -102,34 +102,23 @@
   font-size: 2.2rem;
 }
 
-/* .btn-dark {
-  background-color: var(--dark-color);
-  color: var(--light-color);
-} */
-
-/* 
-.btn-secondary {
-  background-color: var(--secondary-color);
-  background-color: var(--cont-color);
+/* TEXT STYLES */
+.text__primary {
+  color: var(--primary-color);
 }
 
-.btn-light {
-  background-color: var(--light-color);
-  color: var(--secondary-color);
-} */
-.btn-cont {
+/* .btn-cont {
   background-color: var(--cont-color);
   background-color: var(--dark-color);
   background-color: #ab7f34;
   background-color: var(--primary-color);
-  /* background-color: #354051; */
-}
+} */
 
-.btn-block {
+/* .btn-block {
   display: block;
   width: 90%;
   text-align: center;
-}
+} */
 
 /* INNER PAGE CONTAINER */
 .page-container {
@@ -148,18 +137,14 @@
   background: var(--white-color);
   padding: 1rem;
 }
-
-/* TEXT STYLES */
-.text-primary {
-  color: var(--primary-color);
-}
-
+/* 
 .text-secondary {
   color: var(--secondary-color) !important;
 }
 .text-dark {
   color: var(--dark-color) !important;
-}
+} */
+
 .text-large {
   text-transform: lowercase;
   font-size: 10rem !important;
@@ -167,6 +152,7 @@
   /* background-color: var(--cont-color); */
   opacity: 1;
 }
+
 .text-bold {
   text-transform: lowercase;
   font-size: 8rem;
@@ -174,18 +160,18 @@
   font-weight: 700;
 }
 
-.l-heading {
+/* .l-heading {
   font-size: 3rem;
-}
-
+} */
+/* 
 .secondary-bg {
   background-color: var(--secondary-color) !important;
   color: var(--light-color);
-}
+} */
 
-.primary-bg {
+/* .primary-bg {
   background-color: var(--primary-color) !important;
-}
+} */
 
 .grey-bg {
   background-color: #999;
@@ -205,4 +191,19 @@
 /* .dark-bg {
   background-color: var(--dark-color);
   color: var(--light-color);
+} */
+/* .btn-dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+} */
+
+/* 
+.btn-secondary {
+  background-color: var(--secondary-color);
+  background-color: var(--cont-color);
+}
+
+.btn-light {
+  background-color: var(--light-color);
+  color: var(--secondary-color);
 } */
