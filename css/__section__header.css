@@ -13,6 +13,7 @@
   margin-bottom: 0.5rem;
   color: var(--primary-color);
   letter-spacing: 0.1rem;
+  margin-top: 0;
 }
 
 .header__main {

@@ -1,6 +1,7 @@
 .section__breadcrumb {
-  background-color: var(--primary-color);
+  background-color: var(--dark-color);
   /* background-color: rgba(0, 0, 0, 0.9); */
+  /* opacity: 0.8; */
   color: #fff;
   position: sticky;
   /* top: 6.7rem; */
@@ -23,4 +24,10 @@
 .breadcrumb__nav ul li a {
   margin-left: 1rem;
   font-size: 1.5rem;
+  color: #ccc;
+}
+
+.breadcrumb__nav a.current__link {
+  color: var(--light-color);
+  color: var(--primary-color);
 }

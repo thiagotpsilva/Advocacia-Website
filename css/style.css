@@ -1,6 +1,15 @@
 .card__category {
   background-color: #f4f4f4;
   padding: 1rem;
+  background-color: var(--dark-color);
+  color: #fff;
+  margin-top: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.card img {
+  height: 20rem;
+  object-fit: cover;
 }
 .areas__list li {
   list-style-type: square;
@@ -11,8 +20,15 @@
   border-bottom: 1px dotted #555;
   width: 90%;
 }
+
+.list li:last-child {
+  border-bottom: none;
+}
 .list li a {
   color: var(--dark-color) !important;
+  color: #fff !important;
+  text-transform: none;
+  font-weight: 300;
 }
 .list li a:hover {
   color: var(--primary-color) !important;
@@ -452,6 +468,11 @@
   background: var(--ent-color);
 }
 
+.category__penal {
+  background-color: var(--dark-color);
+  text-transform: none;
+  /* padding: 1rem; */
+}
 .category-food {
   background: var(--food-color);
 }
@@ -590,6 +611,11 @@ input::placeholder {
   padding: 0.5rem;
 }
 
+.article__text {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1.7;
+}
 #article .meta .category {
   margin-top: 0.4rem;
 }

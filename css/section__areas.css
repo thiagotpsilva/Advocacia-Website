@@ -24,3 +24,7 @@
   padding: 1rem;
   border-radius: var(--border-radius);
 }
+
+.section__areas {
+  background-color: #eee;
+}

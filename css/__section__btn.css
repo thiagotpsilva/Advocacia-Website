@@ -1,6 +1,7 @@
 #section__btn {
   position: relative;
   background-image: url('../images/sections/section_btn.jpeg');
+  /* background-color: var(--secondary-dark-color); */
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -17,6 +18,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--dark-overlay);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   z-index: -1;
 }
 
@@ -40,7 +42,7 @@
   margin-bottom: 1.82rem;
   justify-content: center;
   text-align: center;
-  text-shadow: var(--text-shadow);
+  /* text-shadow: var(--text-shadow); */
 }
 
 #section__btn h2 {
@@ -48,7 +50,7 @@
   font-size: 4rem;
   letter-spacing: 0.1rem;
   font-weight: 500;
-  text-shadow: var(--text-shadow);
+  /* text-shadow: var(--text-shadow); */
   color: var(--light-color);
   text-transform: uppercase;
 }
