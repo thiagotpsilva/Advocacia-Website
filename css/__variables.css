@@ -43,11 +43,15 @@
   --max-width: 110rem;
 
   --primary-color: #c18f59;
+  /* --primary-color: red; */
+  /* --primary-color: red; */
+  /* --primary-color:#ccc */
   --dark-color: #2e2e2e;
   --secondary-dark-color: #444;
   --light-color: #fff;
   --gray-color: #ccc;
   --dark-overlay: rgba(0, 0, 0, 0.74);
+  /* --dark-overlay: rgba(0, 0, 0, 1); */
   --text-shadow: 1px 3px rgba(0, 0, 0, 0.72);
   --border-radius: 0.5rem;
 }

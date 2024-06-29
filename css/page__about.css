@@ -90,7 +90,10 @@
   transform: scale(1.02);
 }
 .section__tech .grid__container {
-  gap: 3rem;
+  gap: 2rem;
+}
+.section__tech .office__image {
+  height: 315px;
 }
 .section__tech .grid__container .office__content {
   /* background-color: red; */

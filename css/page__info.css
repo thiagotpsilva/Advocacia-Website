@@ -2,6 +2,7 @@
 #hero-info {
   background-image: url('../images/gallery/esa_01.jpeg');
   background-position: top;
+  /* background-position: center; */
   background-repeat: no-repeat;
   height: 50vh;
 }

@@ -9,7 +9,7 @@
 }
 
 .section__about .grid__container {
-  gap: 1rem;
+  gap: 3rem;
 }
 
 .section__about .grid__content {
@@ -43,11 +43,14 @@
   font-size: 1.8rem;
   color: var(--dark-color);
   line-height: 1.5;
+  font-weight: 300;
+  text-align: justify;
 }
 
 .section__about li {
   font-size: 1.8rem;
   margin-top: 0.2rem;
+  font-weight: 300;
   color: var(--dark-color);
 }
 

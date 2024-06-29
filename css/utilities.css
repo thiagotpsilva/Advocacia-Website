@@ -147,6 +147,7 @@
   display: grid;
   grid-template-columns: 5fr 2fr;
   gap: 1.5rem;
+  /* gap: 5rem; */
   margin: 2rem 0;
 }
 
@@ -155,10 +156,10 @@
 }
 
 /* CARDS */
-.card {
-  /* background: var(--white-color); */
-  padding: 1rem;
-}
+/* .card { */
+/* background: var(--white-color); */
+/* padding: 1rem; */
+/* } */
 /* 
 .text-secondary {
   color: var(--secondary-color) !important;
