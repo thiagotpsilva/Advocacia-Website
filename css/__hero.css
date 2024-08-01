@@ -1,0 +1,41 @@
+/* HERO */
+.hero {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  z-index: 2;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.hero .hero__content {
+  text-transform: uppercase;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 3rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.hero .hero__content h1 {
+  font-size: 6.4rem;
+  font-weight: 500;
+  line-height: 96px;
+  color: var(--light-color);
+  margin-bottom: 5.6rem;
+}

@@ -1,0 +1,30 @@
+/* SECTION: AREAS */
+.areas__card.card__01 {
+  background-image: url('../images/areas/area_01.jpg');
+}
+.areas__card.card__02 {
+  background-image: url('../images/areas/area_02.jpg');
+}
+.areas__card.card__03 {
+  background-image: url('../images/areas/area_03.jpg');
+}
+.areas__card.card__04 {
+  background-image: url('../images/areas/area_04.jpg');
+}
+.areas__card.card__05 {
+  background-image: url('../images/areas/area_05.jpg');
+}
+.areas__card.card__06 {
+  background-image: url('../images/areas/area_06.jpg');
+}
+
+.areas__card i {
+  color: var(--primary-color);
+  border: 0.2rem solid var(--primary-color);
+  padding: 1rem;
+  border-radius: var(--border-radius);
+}
+
+.section__areas {
+  background-color: #eee;
+}

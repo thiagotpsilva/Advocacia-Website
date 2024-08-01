@@ -1,0 +1,41 @@
+/* SCROLL */
+.scrollTop {
+  position: fixed;
+  right: 0rem;
+  bottom: 80rem;
+  font-size: 4rem;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  border-radius: 1rem;
+  cursor: pointer;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.scrollTop.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 4.5rem;
+  right: 1rem;
+  bottom: 10rem;
+}
+
+.scrollTop:hover {
+  opacity: 0.8;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--light-color);
+  border: 1px solid var(--light-color);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--dark-color);
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+:root {
+  /* --primary-font: 'Oswald', sans-serif; */
+  /* --primary-font: 'Merriweather', serif; */
+  --secondary-font: 'Oswald', sans-serif;
+  --secondary-font: 'Teko', sans-serif;
+  /* --insta-font: 'Open Sans', Arial, sans-serif; */
+
+  --cont-color: #f39422;
+  /* --cont-color: #343a40; */
+  /* --primary-color: #0999bf; */
+  /* --primary-color: #354051; */
+  /* --primary-color: #748da6; */
+
+  --secondary-color: #082032;
+  /* --secondary-color: #003865; */
+  /* --secondary-color: #f39422; */
+  --light-gray-color: #e5e5e5;
+  /* --light-color: #f8f9fa; */
+  /* --gray-color: #ccc; */
+  --white-color: #fff;
+  /* --dark-color: #424850; */
+
+  /* REFATOR */
+  /* --secondary-dark-color: #626870; */
+
+  --beaches-color: #f99500;
+  --ent-color: #a66bbe;
+  --food-color: #009cff;
+
+  /* 
+  --primary-color: #ab7f34;
+  --primary-color: #be8c63; */
+
+  --secondary-color: #424850;
+
+  --text-color: rgba(0, 0, 0, 0.6);
+
+  /* ATUALIZADO */
+
+  --primary-font: 'Oswald', sans-serif;
+
+  --max-width: 110rem;
+
+  --primary-color: #c18f59;
+  /* --primary-color: red; */
+  /* --primary-color: red; */
+  /* --primary-color:#ccc */
+  --dark-color: #2e2e2e;
+  --secondary-dark-color: #444;
+  --light-color: #fff;
+  --gray-color: #ccc;
+  --dark-overlay: rgba(0, 0, 0, 0.74);
+  /* --dark-overlay: rgba(0, 0, 0, 1); */
+  --text-shadow: 1px 3px rgba(0, 0, 0, 0.72);
+  --border-radius: 0.5rem;
+}

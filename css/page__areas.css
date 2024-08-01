@@ -1,0 +1,52 @@
+/* PAGE: AREAS */
+#hero__areas {
+  background-image: url('../images/gallery/esa_01.jpeg');
+  background-image: url('../images/heros/hero__areas.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+#hero__areas .hero-content {
+  align-items: flex-start;
+}
+
+#hero__areas.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+#areas .btn__container {
+  margin-top: 2rem;
+}
+
+#areas .flex__card {
+  z-index: 1;
+  height: 40rem;
+}
+
+.card__link {
+  text-transform: unset;
+  display: flex;
+  flex-direction: column;
+}
+
+#areas .btn__container i {
+  border: unset;
+  color: var(--light-color);
+  width: unset;
+  padding: unset;
+
+  /* margin: unset; */
+}
+
+#areas .btn {
+  /* padding: 1rem 2rem !important; */
+  min-width: 1.5rem;
+}

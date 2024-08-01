@@ -1,0 +1,31 @@
+/* SECTION: PROCESS */
+.process__card.card__01 {
+  background-image: url('../images/process/Process-1.jpg');
+}
+.process__card.card__02 {
+  background-image: url('../images/process/Process-2.jpg');
+}
+.process__card.card__03 {
+  background-image: url('../images/process/Process-3.jpg');
+}
+.process__card.card__04 {
+  background-image: url('../images/process/Process-4.jpg');
+}
+.process__card.card__05 {
+  background-image: url('../images/process/Process-5.jpg');
+}
+.process__card.card__06 {
+  background-image: url('../images/process/Process-6.jpg');
+}
+
+.process__number {
+  display: flex;
+  justify-content: center;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  font-size: 2.5rem;
+  background-color: var(--primary-color);
+  line-height: 1.7;
+}

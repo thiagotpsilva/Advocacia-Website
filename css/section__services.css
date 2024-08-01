@@ -1,0 +1,50 @@
+#section__services {
+  min-height: 50vh;
+}
+
+#section__services .grid__container {
+  gap: 0;
+  align-items: flex-start;
+  margin-bottom: 0rem;
+}
+
+.services__card {
+  height: 100%;
+  border: none;
+  padding: 3rem;
+  color: var(--light-color);
+}
+
+.card__number {
+  font-size: 3rem;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.services__card h3 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+
+.services__card p {
+  font-size: 1.5rem;
+  line-height: 1.7;
+  font-weight: 200;
+}
+
+.services__card:first-of-type {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.services__card:nth-of-type(2) {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.services__card:nth-child(3) {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.services__card:nth-child(4) {
+  background-color: rgba(0, 0, 0, 0.65);
+}

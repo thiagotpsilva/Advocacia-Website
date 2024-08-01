@@ -1,0 +1,133 @@
+/* HERO: ABOUT */
+#hero__about {
+  background-image: url('../images/office/office_04.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+
+#hero__about .hero-content {
+  align-items: flex-start;
+}
+
+#hero__about.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
+}
+
+.office__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* padding-right: 4rem; */
+  /* width: 50%; */
+  /* background-color: red; */
+  justify-content: flex-end;
+  position: relative;
+
+  /* padding-left: 44rem; */
+  /* background-color: red; */
+}
+
+.section__office img {
+  border-radius: var(--border-radius);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+}
+
+.section__office .grid__container {
+  gap: 2rem;
+}
+
+.office__title {
+  color: var(--primary-color);
+  font-size: 4rem;
+}
+
+.office__text {
+  line-height: 1.4;
+  font-size: 1.6rem;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.office__image {
+  height: 100%;
+}
+.office__image img {
+  height: 100%;
+  /* border: 0.4rem solid var(--dark-color); */
+  width: 100%;
+  object-fit: cover;
+}
+
+.grid__lightbox {
+  margin-top: 2rem;
+}
+
+.section__culture {
+  background-color: var(--dark-color);
+  padding-bottom: 5rem;
+}
+.section__culture .section__header {
+  color: #fff;
+}
+.culture__card {
+  background-color: unset;
+  background-color: #fff !important;
+  /* color: var(--dark-color); */
+  width: unset;
+  height: fit-content;
+  z-index: 1;
+}
+.culture__card:hover {
+  opacity: 0.9;
+  transform: scale(1.02);
+}
+.section__tech .grid__container {
+  gap: 2rem;
+}
+.section__tech .office__image {
+  height: 315px;
+}
+.section__tech .grid__container .office__content {
+  /* background-color: red; */
+  /* align-items: flex-start; */
+  /* height: 100%; */
+  /* display: flex; */
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.office__image {
+  /* width: 150px; */
+  /* height: 150px; */
+  position: relative;
+  z-index: 1;
+  border-radius: 4rem;
+}
+
+.section__tech .office__image img {
+  border-radius: var(--border-radius);
+}
+.section__tech .office__image::before {
+  content: '';
+  position: absolute;
+  border-radius: var(--border-radius);
+  top: 0;
+
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+}
+
+.section__culture .grid__3 {
+  max-width: 80rem;
+  margin: 0 auto;
+}

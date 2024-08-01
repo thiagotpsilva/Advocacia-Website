@@ -1,0 +1,38 @@
+.section__breadcrumb {
+  background-color: var(--dark-color);
+  background-color: #fff;
+  /* background-color: rgba(0, 0, 0, 0.9); */
+  /* opacity: 0.8; */
+  color: var(--dark-color);
+  position: sticky;
+  /* top: 6.7rem; */
+  top: 6.9rem;
+  overflow: hidden;
+  z-index: 100;
+  width: 100%;
+}
+.section__breadcrumb .flex__container {
+  justify-content: space-between;
+  width: 100%;
+}
+.breadcrumb__nav {
+  display: flex;
+}
+.breadcrumb__nav ul {
+  display: flex;
+}
+
+.breadcrumb__nav ul li a {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #ccc;
+  color: var(--dark-color);
+}
+
+.breadcrumb__nav a.current__link {
+  /* color: var(--light-color); */
+  color: var(--dark-color);
+  /* color: var(--primary-color); */
+  /* color: var(--dark-color); */
+  opacity: 0.7;
+}

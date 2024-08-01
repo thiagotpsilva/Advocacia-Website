@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/flex__card.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/__variables.css" />
+    <link rel="stylesheet" href="css/__reset.css" />
+    <link rel="stylesheet" href="css/__scroll.css" />
+    <link rel="stylesheet" href="css/__menu.css" />
+    <link rel="stylesheet" href="css/__hero.css" />
+    <link rel="stylesheet" href="css/__footer.css" />
+    <link rel="stylesheet" href="css/__section__header.css" />
+    <link rel="stylesheet" href="css/__section__btn.css" />
+    <link rel="stylesheet" href="css/section__skills.css" />
+    <link rel="stylesheet" href="css/section__process.css" />
+    <link rel="stylesheet" href="css/section__areas.css" />
+    <link rel="stylesheet" href="css/section__services.css" />
+    <link rel="stylesheet" href="css/section__about.css" />
+    <link rel="stylesheet" href="css/page__home.css" />
+    <link rel="stylesheet" href="css/page__info.css" />
+    <link rel="stylesheet" href="css/page__areas.css" />
+    <link rel="stylesheet" href="css/page__about.css" />
+    <title>O Escritório | Edison Sobrinho Advocacia</title>
+  </head>
+  <body id="top">
+    <div id="overlay"></div>
+
+    <!-- MOBILE MENU -->
+    <div id="mobile-menu" class="mobile-main-menu">
+      <a class="logo" href="index.html">
+        <img
+          src="images/logos/logo_advocacia.png"
+          alt="Logomarca Edison Sobrinho Advocacia"
+        />
+      </a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a class="current-link" href="about.html">O Escritório</a></li>
+        <li>
+          <a href="atuacao.html">Áreas de Atuação</a>
+        </li>
+        <li>
+          <a href="#">Fale Conosco</a>
+        </li>
+        <li><a href="info.html">Dúvidas</a></li>
+      </ul>
+    </div>
+
+    <!-- HEADER: NAVBAR & HERO -->
+    <header id="hero__about" class="hero">
+      <nav class="navbar">
+        <div class="container">
+          <a class="logo" href="index.html">
+            <img
+              src="images/logos/logo_advocacia.png"
+              alt="Logomarca Edison Sobrinho Advocacia"
+            />
+          </a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current-link" href="about.html">O Escritório</a></li>
+            <li>
+              <a href="atuacao.html">Áreas de Atuação</a>
+            </li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li>
+              <a href="info.html">Dúvidas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero__content">
+        <h1>O Escritório</h1>
+      </div>
+    </header>
+
+    <!-- HAMBURGER MENU -->
+    <buttton id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </buttton>
+
+    <!-- SECTION: SERVICES -->
+    <!-- <section id="section__services">
+      <div class="services__container">
+        <div class="grid__container grid__4">
+          <div class="services__card">
+            <span class="card__number">01.</span>
+            <div>
+              <h3>Experiência Comprovada</h3>
+              <p>
+                Túlio Vianna leciona Direito Penal há 10 anos na Faculdade de
+                Direito da UFMG para alunos da graduação, do mestrado e do
+                doutorado. É pós-doutor em Direito pela Università di Bologna e
+                autor de livros e artigos jurídicos publicados no Brasil e no
+                exterior. Esta experiência acadêmica se reflete na nossa equipe
+                de advogados, altamente qualificada e sempre atualizada com o
+                que há de mais moderno na teoria e na prática do Direito Penal.
+              </p>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <span class="card__number">02.</span>
+            <div>
+              <h3>Confiança Nacional</h3>
+              <p>
+                Túlio Vianna é um dos mais importantes influenciadores jurídicos
+                brasileiro. Seu canal do Youtube com mais de 50.000 assinantes é
+                um reflexo da confiança que a comunidade jurídica nacional
+                deposita em seu trabalho. São milhares de advogados, juízes e
+                promotores de todo o país, que acompanham atentamente sua
+                opinião isenta e fundamentada. Esta confiança nacional se
+                estende a nosso escritório de advocacia, admirado e recomendado
+                por clientes e colegas de todo o país.
+              </p>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <span class="card__number">03.</span>
+            <div>
+              <h3>Sigilo Garantido</h3>
+              <p>
+                Túlio Vianna preocupa-se tanto com a privacidade que escreveu
+                sua tese de doutorado sobre o tema. Todas as suas informações
+                estarão protegidas não só pelo nosso rigoroso respeito ao sigilo
+                profissional, mas também por criptografia de ponta. Aqui não tem
+                vazamento de informações. Mantemos protegidas as informações
+                confidenciais, avaliamos com nossos clientes o que pode ser
+                divulgado e intermediamos o contato com a imprensa. Tudo isso
+                para resguardar a imagem de nossos clientes.
+              </p>
+            </div>
+          </div>
+
+          <div class="services__card">
+            <span class="card__number">04.</span>
+            <div>
+              <h3>Atendimento Personalizado</h3>
+              <p>
+                Túlio, Cynthia e Lucas. É assim que gostamos de ser chamados por
+                nossos clientes. Aqui você não é só um número de processo
+                separado de nós por um “Doutor”. Deixamos as formalidades para
+                os juízes e para os tribunais. Queremos que você se sinta à
+                vontade para expor abertamente todas suas incertezas e
+                apreensões. Faremos tudo ao nosso alcance para resolvê-las da
+                forma mais clara e transparente possível.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- SECTION: ABOUT -->
+    <!-- <section class="section__about py__4">
+      <div class="container">
+        <div class="grid__container">
+          <div class="grid__content">
+            <h2 class="about__header">
+              About Us <i class="fa-solid fa-scale-balanced"></i>
+            </h2>
+            <h3 class="about__subheader">
+              Especialistas jurídicos confiáveis ​​com experiência
+            </h3>
+
+            <p class="about__content">
+              O Escritório Edison Sobrinho Advocacia tem atuação destacada nas
+              mais diversas áreas jurídicas, sendo uma sociedade cujos membros
+              que a compõem possuem como fundamento os princípios da ética,
+              eficiência. Há 20 anos pessoas ativas com serviços jurídicos.
+              Conte com nossa equipe dedicada de profissionais jurídicos
+              experientes com um forte compromisso em fornecer serviços
+              jurídicos excepcionais.
+            </p>
+            <ul>
+              <h2>Diferenciais</h2>
+              <li>
+                <i class="fa-solid fa-scale-balanced"></i> Tratamento
+                especializado de casos jurídicos;
+              </li>
+              <li>
+                <i class="fa-solid fa-scale-balanced"></i> Soluções jurídicas
+                econômicas;
+              </li>
+              <li>
+                <i class="fa-solid fa-scale-balanced"></i> Qualidade Rigorosa
+                Verificações e Garantia;
+              </li>
+              <li>
+                <i class="fa-solid fa-scale-balanced"></i> Serviços Eficientes
+                Com Respostas Oportunas.
+              </li>
+            </ul>
+            <div class="btn__container">
+              <a href="#" class="btn btn__dark"
+                >Saiba Mais <i class="fas fa-chevron-right"></i
+              ></a>
+            </div>
+          </div>
+          <div class="grid__images">
+            <img src="images/office/office_01.jpeg" alt="" />
+            <img src="images/office/office_02.jpeg" alt="" />
+            <img src="images/office/office_03.jpeg" alt="" />
+            <img src="images/office/office_04.jpeg" alt="" />
+          </div>
+          <div class="about__box">
+            <p class="box__number">20</p>
+            <p class="box__text">
+              Anos de <br />
+              Experiência
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- SECTION: OFFICE -->
+    <section class="section__office py__3">
+      <div class="container">
+        <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Conheça nosso escritório
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Nossa História</h2>
+          <p class="header__content">
+            Com mais de 15 anos de existência, somos uma sociedade de advogados
+            com profissionais altamente especializados e qualificados,
+            Referência em Direito Empresarial e Imobiliário no Brasil
+          </p>
+        </header>
+
+        <div class="grid__container">
+          <div class="office__content">
+            <h2 class="office__title">O Escritório</h2>
+            <p class="office__text">
+              Nosso escritório de advocacia foi fundado há mais de 15 anos, com
+              foco em Direito Imobiliário, Constituição de Holding familiar,
+              Direito de Família e Direito Sucessório. Salientamos que hoje
+              somos referência no Brasil.
+            </p>
+            <p class="office__text">
+              Somos uma sociedade de advogados no qual buscamos atender nossos
+              clientes com agilidade, competência e transparência. Inspirados
+              nos mais elevados princípios éticos e tendo como base a vasta
+              experiência e qualificação dos sócios e advogados, percorremos ao
+              longo dos anos o caminho da excelência na prestação de serviços
+              advocatícios.
+            </p>
+            <p class="office__text">
+              Somos comprometidos com a satisfação de nossos clientes, tanto em
+              relação ao tratamento e transparência, quanto à velocidade e aos
+              resultados obtidos, sempre atentos ao dever ético, com integridade
+              e inovação, proporcionando, assim, serviços advocatícios com o
+              mais alto padrão de qualidade.
+            </p>
+          </div>
+          <div class="office__image">
+            <a
+              href="images/office/office_03.jpeg"
+              data-lightbox="gallery"
+              data-title="My caption"
+            >
+              <img src="images/office/office_03.jpeg" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="grid__container grid__5 grid__lightbox">
+          <a href="images/office/office_01.jpeg" data-lightbox="gallery">
+            <img src="images/office/office_01.jpeg" alt="" />
+          </a>
+          <a href="images/office/office_02.jpeg" data-lightbox="gallery">
+            <img src="images/office/office_02.jpeg" alt="" />
+          </a>
+          <a href="images/office/office_03.jpeg" data-lightbox="gallery">
+            <img src="images/office/office_03.jpeg" alt="" />
+          </a>
+          <a href="images/office/office_04.jpeg" data-lightbox="gallery">
+            <img src="images/office/office_04.jpeg" alt="" />
+          </a>
+          <a href="images/office/office_06.jpeg" data-lightbox="gallery">
+            <img src="images/office/office_06.jpeg" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: CULTURE -->
+    <section class="section__culture py__3">
+      <div class="container">
+        <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Nossa cultura
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Nossos ideais</h2>
+          <p class="header__content">
+            Buscamos solucionar demandas jurídicas com excelência, através de
+            especialistas altamente qualificados em diversas áreas do Direito. O
+            escritório prima pela elevação do atendimento aos nossos clientes,
+            com transparência, agilidade e ética profissional.
+          </p>
+        </header>
+        <div class="grid__container grid__3">
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Credibilidade</h3>
+            </div>
+          </div>
+
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Confiança</h3>
+            </div>
+          </div>
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Trasnparência</h3>
+            </div>
+          </div>
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Assertividade</h3>
+            </div>
+          </div>
+
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Multidisciplinar</h3>
+            </div>
+          </div>
+
+          <div class="flex__card culture__card">
+            <div>
+              <h3 class="card__title">Comprometimento</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: OFFICE -->
+    <section class="section__tech py__3">
+      <div class="container">
+        <!-- <header class="section__header">
+          <h3 class="header__top">
+            <i class="fa-solid fa-scale-balanced"></i> Conheça nosso escritório
+            <i class="fa-solid fa-scale-balanced"></i>
+          </h3>
+          <h2 class="header__main">Nossa História</h2>
+          <p class="header__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+            ad temporibus hic voluptatum ducimus at ullam mollitia voluptatem
+            quidem odit quia, porro impedit, quod nostrum tempore et quae culpa
+            cupiditate?
+          </p>
+        </header> -->
+
+        <div class="grid__container">
+          <div class="office__image">
+            <!-- <img src="images/office/banner-lgpd.png" alt="" /> -->
+            <!-- <img src="images/office/01.-lgpd-agencia-acre-whom.jpeg" alt="" /> -->
+            <img src="images/office/banner-lgpd.png" alt="" />
+          </div>
+          <div class="office__content">
+            <h2 class="office__title">Tecnologia</h2>
+            <p class="office__text">
+              Nosso escritório é comprometido com a inovação tecnológica,
+              pioneiro na construção de Smart Contracts através de blockchain.
+              Salientamos também que implementamos as adequações necessárias às
+              empresas, conforme as diretrizes sobre a nova lei do LGPD, a lei
+              nº 13709/18.
+            </p>
+            <p class="office__text">
+              Nossos advogados estão sempre se atualizando com o objetivo de
+              fornecer o melhor atendimento e adequação tecnológica jurídica aos
+              nossos clientes.
+            </p>
+            <div class="btn__container">
+              <a href="#" class="btn btn__primary">
+                Entrar em contato
+                <i class="fas fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION: BTN -->
+    <!-- <section id="section__btn">
+      <div class="container flex__container">
+        <h2>Não Encontrou o que procura?</h2>
+        <p>
+          Você está com duvidas sobre o Direito e deseja falar com um
+          especialista?
+        </p>
+        <div class="btn__container">
+          <a target="_blank" href="#" class="btn btn__primary">
+            Entrar em Contato <i class="fas fa-chevron-right"></i>
+          </a>
+          <a target="_blank" href="info.html" class="btn btn__primary">
+            Tire suas dúvidas <i class="fas fa-chevron-right"></i>
+          </a>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer class="footer py__3 dark__bg">
+      <div class="container">
+        <div class="grid__container grid__4">
+          <div class="footer__logo">
+            <a href="index.html">
+              <img src="images/logos/logo_advocacia.png" alt="" />
+            </a>
+            <p class="footer__text">
+              O escritório Edison Sobrinho Advocacia, com sede em Belo
+              Horizonte, tem atuação nacional e é especialista nas principais
+              áreas do Direito. Com mais de 20 anos de experiência oferecendo
+              serviços de alta qualidade com sigilo garantido.
+            </p>
+          </div>
+
+          <div class="footer__social">
+            <h2 class="footer__title">Siga nossas redes sociais</h2>
+            <ul class="social-icons">
+              <li>
+                <a target="_blank" href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="#"><i class="fab fa-whatsapp"></i></a>
+              </li>
+              <li>
+                <a target="_blank" href="#">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer__links">
+            <h2 class="footer__title">Links</h2>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">O escritório</a></li>
+              <li><a href="#">Áreas de Atuação</a></li>
+              <li><a href="#">Fale conosco</a></li>
+              <li><a href="#">Dúvidas</a></li>
+            </ul>
+          </div>
+
+          <div class="footer__info">
+            <h2 class="footer__title">Contato</h2>
+            <ul>
+              <li>
+                <a href="#">
+                  <!-- <i class="fa-brands fa-whatsapp"></i> -->
+                  (31) 9 9941-5092
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <!-- <i class="fa-solid fa-envelope"></i> -->
+                  contato@edisonsobrinhoadvocacia.com.br
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <!-- <i class="fa-solid fa-location-dot"></i> -->
+                  Avenida Augusto de Lima, 1646. Sl 1709 <br />
+                  Barro Preto - Belo Horizonte - Minas Gerais <br />
+                  30285-738
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="container">
+          <p class="copyright__info">
+            Copyright 2024
+            <a href="index.html"> &copy; Edison Sobrinho Advocacia</a> | Todos
+            os Direitos Reservados
+          </p>
+          <p class="developer__info">
+            Desenvolvido por
+            <a
+              target="_blank"
+              href="https://thiagotpsilva.github.io/portfolio/"
+            >
+              Thiago Silva
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL TOP -->
+    <a href="#top" id="backTop">
+      <ion-icon class="scrollTop" name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <!-- ION ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- CAROUSEL  -->
+    <script>
+      $('.slider__cards').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+        responsiveClass: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+    </script>
+
+    <!-- SCRIPTS -->
+    <script src="js/navbar.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/lightbox.min.js"></script>
+  </body>
+</html>
