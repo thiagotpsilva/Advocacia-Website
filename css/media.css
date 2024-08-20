@@ -84,6 +84,56 @@
     grid-template-columns: 1fr;
   }
 
+  /* PAGE: ABOUT */
+  #hero__about {
+    height: 18rem;
+  }
+
+  .container__content {
+    grid-template-columns: 1fr;
+  }
+
+  .section__office .grid__5 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .section__culture .grid__3 {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50% !important;
+  }
+
+  .section__culture .grid__3 {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .section__culture .flex__card {
+    width: 16rem;
+  }
+
+  .section__culture .card__title {
+    font-size: 2rem;
+  }
+
+  .section__tech .grid__container {
+    grid-template-columns: 1fr;
+  }
+
+  .office__image {
+    display: none;
+  }
+
+  /* PAGE: ATUACAO */
+  #hero__areas {
+    height: 18rem;
+  }
+
+  #areas .grid__4 {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+  }
+
   /* SECTION HEADER */
   .header__top {
     font-size: 2.2rem;
